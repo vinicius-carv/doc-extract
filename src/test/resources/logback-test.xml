@@ -1,0 +1,5 @@
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/base.xml"/>
+  <!-- the truncated-PDF test makes PDFBox warn on purpose -->
+  <logger name="org.apache.pdfbox" level="ERROR"/>
+</configuration>
