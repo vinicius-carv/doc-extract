@@ -33,7 +33,9 @@ public class RecordedExtractor implements Extractor {
       }
       String content = delegate.complete(documentSha, windowIndex, prompt);
       try {
-        JSON.readTree(content); // never record garbage
+        if (!JSON.readTree(content).isObject()) { // never record garbage
+          throw new ExtractionException("Model output is not a JSON object; not recording " + file);
+        }
       } catch (JacksonException e) {
         throw new ExtractionException("Model returned invalid JSON; not recording " + file, e);
       }

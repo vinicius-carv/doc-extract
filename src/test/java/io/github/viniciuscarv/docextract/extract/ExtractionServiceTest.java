@@ -70,6 +70,21 @@ class ExtractionServiceTest {
   }
 
   @Test
+  void emptyOrNonObjectOutputThrows() {
+    for (String bad : new String[] {"", "[]", "null"}) {
+      assertThatThrownBy(() -> new ExtractionService((s, w, p) -> bad).extract(doc(1)))
+          .isInstanceOf(ExtractionException.class);
+    }
+  }
+
+  @Test
+  void blankValueIsNull() {
+    String json = "{\"parties\":{\"value\":\"  \",\"evidence\":[]}}";
+    assertThat(of(new ExtractionService((s, w, p) -> json).extract(doc(1)), Category.PARTIES).value())
+        .isNull();
+  }
+
+  @Test
   void invalidJsonThrowsExtractionException() {
     assertThatThrownBy(() -> new ExtractionService((s, w, p) -> "oops").extract(doc(1)))
         .isInstanceOf(ExtractionException.class);

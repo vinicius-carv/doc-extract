@@ -39,6 +39,9 @@ public class OllamaExtractor implements Extractor {
             .body(JSON.writeValueAsString(body))
             .retrieve()
             .body(String.class);
+    if (response == null) {
+      throw new ExtractionException("Empty response from Ollama");
+    }
     return JSON.readTree(response).path("message").path("content").asString();
   }
 

@@ -50,6 +50,9 @@ public class ExtractionService {
     } catch (JacksonException e) {
       throw new ExtractionException("Model returned invalid JSON for window " + index, e);
     }
+    if (!root.isObject()) {
+      throw new ExtractionException("Model output is not a JSON object for window " + index);
+    }
     List<FieldOutcome> out = new ArrayList<>();
     for (Category c : Category.values()) {
       JsonNode field = root.path(c.key());
@@ -59,7 +62,7 @@ public class ExtractionService {
         evidence.add(
             verify(window, new Evidence(e.path("page").asInt(-1), e.path("quote").asString(""))));
       }
-      out.add(new FieldOutcome(c, value.isString() ? value.asString() : null, evidence));
+      out.add(new FieldOutcome(c, value.isString() && !value.asString().isBlank() ? value.asString() : null, evidence));
     }
     return out;
   }

@@ -1,6 +1,7 @@
 package io.github.viniciuscarv.docextract.extract;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.jsonPath;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
@@ -38,5 +39,14 @@ class OllamaExtractorTest {
 
     assertThat(out).isEqualTo("{\"x\":1}");
     server.verify();
+  }
+
+  @Test
+  void nullBodyThrowsExtractionException() {
+    RestClient.Builder builder = RestClient.builder();
+    MockRestServiceServer server = MockRestServiceServer.bindTo(builder).build();
+    server.expect(requestTo("http://ollama:11434/api/chat")).andRespond(withSuccess());
+    assertThatThrownBy(() -> new OllamaExtractor(builder, "http://ollama:11434", "m1").complete("s", 0, "p"))
+        .isInstanceOf(ExtractionException.class);
   }
 }

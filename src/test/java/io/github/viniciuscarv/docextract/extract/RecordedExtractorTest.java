@@ -38,6 +38,15 @@ class RecordedExtractorTest {
   }
 
   @Test
+  void doesNotRecordEmptyOrNonObjectJson() {
+    for (String bad : new String[] {"", "[]", "null", "42"}) {
+      RecordedExtractor r = new RecordedExtractor(dir, (s, w, p) -> bad);
+      assertThatThrownBy(() -> r.complete("abc", 0, "p")).isInstanceOf(ExtractionException.class);
+    }
+    assertThat(dir.resolve("abc-0.json")).doesNotExist();
+  }
+
+  @Test
   void missingWithoutDelegateThrowsNamingFile() {
     assertThatThrownBy(() -> new RecordedExtractor(dir, null).complete("abc", 3, "p"))
         .isInstanceOf(IllegalStateException.class)
