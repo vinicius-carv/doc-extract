@@ -8,6 +8,7 @@ import org.springframework.http.ProblemDetail;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.client.ResourceAccessException;
+import org.springframework.web.client.RestClientResponseException;
 import org.springframework.web.multipart.MaxUploadSizeExceededException;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -25,10 +26,22 @@ class ApiExceptionHandler {
     return ProblemDetail.forStatusAndDetail(HttpStatus.BAD_REQUEST, "File exceeds the 10 MB limit");
   }
 
-  @ExceptionHandler({ResourceAccessException.class, ExtractionException.class})
-  ProblemDetail unavailable(RuntimeException e) {
+  @ExceptionHandler(ResourceAccessException.class)
+  ProblemDetail unavailable(ResourceAccessException e) {
     return ProblemDetail.forStatusAndDetail(
         HttpStatus.SERVICE_UNAVAILABLE, "Extraction service unavailable — is Ollama running?");
+  }
+
+  @ExceptionHandler(RestClientResponseException.class)
+  ProblemDetail ollamaError(RestClientResponseException e) {
+    return ProblemDetail.forStatusAndDetail(
+        HttpStatus.SERVICE_UNAVAILABLE, "Ollama returned an error — is the model pulled?");
+  }
+
+  @ExceptionHandler(ExtractionException.class)
+  ProblemDetail badModelOutput(ExtractionException e) {
+    return ProblemDetail.forStatusAndDetail(
+        HttpStatus.SERVICE_UNAVAILABLE, "Model output was not valid JSON — try again");
   }
 
   @ExceptionHandler(ResponseStatusException.class)

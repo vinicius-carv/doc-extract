@@ -71,7 +71,7 @@ class EvalRunnerTest {
     assertThat(out).contains("| governing_law | 1.00 | 1.00 | 1.00 |");
     assertThat(out).contains("| overall |");
     assertThat(out).contains("unmapped gold spans: 1");
-    assertThat(out).contains("verified rate: 0.50").contains("unsupported rate: 0.50");
+    assertThat(out).contains("supported rate: 0.50").contains("unsupported rate: 0.50");
 
     JsonNode f = new JsonMapper().readTree(results.resolve("featured.json").toFile());
     assertThat(f.path("promptVersion").asString()).isEqualTo(ExtractionService.PROMPT_VERSION);

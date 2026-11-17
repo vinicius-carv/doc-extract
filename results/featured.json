@@ -1,0 +1,45 @@
+{
+  "promptVersion" : "v1",
+  "model" : "qwen3.5:9b",
+  "documents" : [ ],
+  "report" : {
+    "perCategory" : {
+      "PARTIES" : {
+        "precision" : 0.0,
+        "recall" : 0.0,
+        "f1" : 0.0
+      },
+      "AGREEMENT_DATE" : {
+        "precision" : 0.0,
+        "recall" : 0.0,
+        "f1" : 0.0
+      },
+      "EFFECTIVE_DATE" : {
+        "precision" : 0.0,
+        "recall" : 0.0,
+        "f1" : 0.0
+      },
+      "EXPIRATION_DATE" : {
+        "precision" : 0.0,
+        "recall" : 0.0,
+        "f1" : 0.0
+      },
+      "GOVERNING_LAW" : {
+        "precision" : 0.0,
+        "recall" : 0.0,
+        "f1" : 0.0
+      },
+      "RENEWAL_TERM" : {
+        "precision" : 0.0,
+        "recall" : 0.0,
+        "f1" : 0.0
+      }
+    },
+    "overallF1" : 0.0,
+    "overallPrecision" : 0.0,
+    "overallRecall" : 0.0,
+    "supportedRate" : 0.0,
+    "unsupportedRate" : 0.0,
+    "unmapped" : 0
+  }
+}

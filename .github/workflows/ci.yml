@@ -16,3 +16,5 @@ jobs:
           cache: maven
       - name: Build
         run: ./mvnw -q verify
+      - name: Eval baseline gate
+        run: java -jar target/doc-extract-0.1.0-SNAPSHOT.jar --eval

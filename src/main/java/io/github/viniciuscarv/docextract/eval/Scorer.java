@@ -20,7 +20,7 @@ public final class Scorer {
       double overallF1,
       double overallPrecision,
       double overallRecall,
-      double verifiedRate,
+      double supportedRate,
       double unsupportedRate,
       int unmapped) {}
 
@@ -61,15 +61,15 @@ public final class Scorer {
       allHitGold += hitGold;
       allGold += goldCount;
     }
-    double verified = ratio(supported, evidence);
+    double supportedRate = ratio(supported, evidence);
     Prf overall = prf(allHitPred, allPred, allHitGold, allGold);
     return new Report(
         per,
         overall.f1(),
         overall.precision(),
         overall.recall(),
-        verified,
-        evidence == 0 ? 0 : 1 - verified,
+        supportedRate,
+        evidence == 0 ? 0 : 1 - supportedRate,
         unmapped);
   }
 

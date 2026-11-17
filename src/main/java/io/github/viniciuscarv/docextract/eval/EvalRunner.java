@@ -142,8 +142,8 @@ public class EvalRunner implements ApplicationRunner, ExitCodeGenerator {
     sb.append(
         String.format(
             Locale.ROOT,
-            "verified rate: %.2f, unsupported rate: %.2f, unmapped gold spans: %d%n",
-            r.verifiedRate(),
+            "supported rate: %.2f, unsupported rate: %.2f, unmapped gold spans: %d%n",
+            r.supportedRate(),
             r.unsupportedRate(),
             r.unmapped()));
     return sb.toString();

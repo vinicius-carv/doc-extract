@@ -148,10 +148,22 @@ class DocumentControllerTest {
   }
 
   @Test
+  void ollamaHttpErrorIs503() throws Exception {
+    when(ollama.complete(anyString(), anyInt(), any()))
+        .thenThrow(
+            new org.springframework.web.client.HttpClientErrorException(
+                org.springframework.http.HttpStatus.NOT_FOUND));
+    mvc.perform(multipart("/api/extract").file(file(pdf("a"))))
+        .andExpect(status().isServiceUnavailable())
+        .andExpect(jsonPath("$.detail").value("Ollama returned an error — is the model pulled?"));
+  }
+
+  @Test
   void badModelJsonIs503() throws Exception {
     when(ollama.complete(anyString(), anyInt(), any())).thenReturn("not json");
     mvc.perform(multipart("/api/extract").file(file(pdf("a"))))
-        .andExpect(status().isServiceUnavailable());
+        .andExpect(status().isServiceUnavailable())
+        .andExpect(jsonPath("$.detail").value("Model output was not valid JSON — try again"));
   }
 
   @Test

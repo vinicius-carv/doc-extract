@@ -8,7 +8,10 @@ import java.nio.file.Path;
 import tools.jackson.core.JacksonException;
 import tools.jackson.databind.json.JsonMapper;
 
-/** Replays {@code <dir>/<sha>-<window>.json}; with a delegate, records missing ones. */
+/**
+ * Replays {@code <dir>/<sha>-<window>.json}; with a delegate, calls it only for windows that have
+ * no recording yet. Delete the recordings to re-record after changing the prompt or model.
+ */
 public class RecordedExtractor implements Extractor {
 
   private static final JsonMapper JSON = JsonMapper.builder().build();

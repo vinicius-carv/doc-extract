@@ -60,7 +60,7 @@ class ScorerTest {
     Scorer.Report r = score(List.of(), List.of(), 3);
     assertThat(r.perCategory().get(C).f1()).isZero();
     assertThat(r.overallF1()).isZero();
-    assertThat(r.verifiedRate()).isZero();
+    assertThat(r.supportedRate()).isZero();
     assertThat(r.unsupportedRate()).isZero();
     assertThat(r.unmapped()).isEqualTo(3);
   }
@@ -78,7 +78,7 @@ class ScorerTest {
     assertThat(r.perCategory().get(C).precision()).isEqualTo(0.5); // 1 of 2 scored
     assertThat(r.perCategory().get(C).recall()).isEqualTo(1.0);
     assertThat(r.perCategory().get(C).f1()).isCloseTo(2.0 / 3, within(1e-9));
-    assertThat(r.verifiedRate()).isCloseTo(2.0 / 3, within(1e-9));
+    assertThat(r.supportedRate()).isCloseTo(2.0 / 3, within(1e-9));
     assertThat(r.unsupportedRate()).isCloseTo(1.0 / 3, within(1e-9));
   }
 }

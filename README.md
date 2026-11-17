@@ -26,7 +26,7 @@ The model never gets to mark its own homework. For every quote it returns, the a
 The eval compares extracted evidence with CUAD gold spans over a small corpus (`corpus/manifest.json`).
 
 - A span is a hit when it overlaps a gold span on the same page by at least 50% of the shorter span.
-- Precision, recall and F1 per category, plus micro-averaged overall F1, verified rate and unsupported rate.
+- Precision, recall and F1 per category, plus micro-averaged overall F1, supported rate (verified, fuzzy or wrong-page evidence) and unsupported rate.
 - Gold spans that cannot be located in our extracted text are reported as unmapped and excluded from recall.
 - `--eval` exits 1 if any document fails or overall F1 drops below `corpus/baseline.json`.
 
@@ -53,7 +53,7 @@ docker run --rm -p 8080:8080 --add-host=host.docker.internal:host-gateway doc-ex
 # eval: replay committed recordings, no Ollama needed
 java -jar target/doc-extract-0.1.0-SNAPSHOT.jar --eval
 
-# eval: call Ollama and rewrite the recordings
+# eval (record): calls Ollama for windows that have no recording yet; delete corpus/recordings/ to re-record after changing the prompt or model
 java -jar target/doc-extract-0.1.0-SNAPSHOT.jar --eval --record
 ```
 

@@ -93,8 +93,19 @@ async function init() {
 
 $('upload').addEventListener('submit', async (e) => {
   e.preventDefault();
-  const doc = await load('/api/extract', { method: 'POST', body: new FormData(e.target) });
-  if (doc) render(doc);
+  const file = e.target.querySelector('input[type=file]').files[0];
+  if (file && file.size > 10 * 1024 * 1024) {
+    say('File exceeds the 10 MB limit', true);
+    return;
+  }
+  const btn = e.target.querySelector('button[type=submit], button:not([type])');
+  btn.disabled = true;
+  try {
+    const doc = await load('/api/extract', { method: 'POST', body: new FormData(e.target) });
+    if (doc) render(doc);
+  } finally {
+    btn.disabled = false;
+  }
 });
 
 init();
