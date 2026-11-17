@@ -79,6 +79,13 @@ class EvalRunnerTest {
     JsonNode doc = f.path("documents").get(0);
     assertThat(doc.path("id").asString()).isEqualTo("d1");
     assertThat(doc.path("fields")).hasSize(6);
+    assertThat(doc.path("title").asString()).isEqualTo("d1");
+    assertThat(doc.path("pages")).hasSize(2);
+    assertThat(doc.path("pages").get(1).path("number").asInt()).isEqualTo(2);
+    assertThat(doc.path("pages").get(1).path("text").asString()).contains("laws of Delaware");
+    assertThat(doc.path("precision").asDouble()).isEqualTo(1.0);
+    assertThat(doc.path("recall").asDouble()).isEqualTo(1.0);
+    assertThat(doc.path("f1").asDouble()).isEqualTo(1.0);
     assertThat(f.path("report").path("unmapped").asInt()).isEqualTo(1);
     assertThat(f.path("report").path("overallF1").asDouble()).isEqualTo(1.0);
   }
@@ -100,5 +107,39 @@ class EvalRunnerTest {
     assertThat(out).contains("FAILED d1").contains("invalid JSON");
     JsonNode f = new JsonMapper().readTree(results.resolve("featured.json").toFile());
     assertThat(f.path("documents")).isEmpty();
+  }
+
+  @Test
+  void anyPerDocumentFailureIsReportedAndOtherDocumentsStillScored() throws IOException {
+    Files.writeString(
+        corpus.resolve("manifest.json"),
+        "{\"documents\":[{\"id\":\"bad\",\"pdf\":\"cuad/missing.pdf\",\"gold\":\"cuad/d1.gold.json\"},"
+            + "{\"id\":\"d1\",\"title\":\"Doc One\",\"pdf\":\"cuad/d1.pdf\",\"gold\":\"cuad/d1.gold.json\"}]}");
+    int[] code = new int[1];
+    String out = evaluate(0.0, code);
+    assertThat(code[0]).isEqualTo(1);
+    assertThat(out).contains("FAILED bad:");
+    JsonNode f = new JsonMapper().readTree(results.resolve("featured.json").toFile());
+    assertThat(f.path("documents")).hasSize(1);
+    assertThat(f.path("documents").get(0).path("title").asString()).isEqualTo("Doc One");
+  }
+
+  @Test
+  void pdfsLongerThanUploadLimitAreEvaluated() throws IOException {
+    Path pdf = TestPdfs.textPdf(java.util.Collections.nCopies(11, "Page text."));
+    Files.copy(pdf, corpus.resolve("cuad/long.pdf"));
+    String longSha = Sha256.of(pdf);
+    for (int w = 0; w < 4; w++) {
+      Files.writeString(corpus.resolve("recordings/" + longSha + "-" + w + ".json"), "{}");
+    }
+    Files.writeString(corpus.resolve("cuad/long.gold.json"), "[]");
+    Files.writeString(
+        corpus.resolve("manifest.json"),
+        "{\"documents\":[{\"id\":\"long\",\"pdf\":\"cuad/long.pdf\",\"gold\":\"cuad/long.gold.json\"}]}");
+    int[] code = new int[1];
+    evaluate(0.0, code);
+    assertThat(code[0]).isZero();
+    JsonNode f = new JsonMapper().readTree(results.resolve("featured.json").toFile());
+    assertThat(f.path("documents").get(0).path("pages")).hasSize(11);
   }
 }

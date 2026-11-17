@@ -1,6 +1,5 @@
 package io.github.viniciuscarv.docextract.eval;
 
-import io.github.viniciuscarv.docextract.extract.ExtractionException;
 import io.github.viniciuscarv.docextract.extract.ExtractionService;
 import io.github.viniciuscarv.docextract.extract.FieldOutcome;
 import io.github.viniciuscarv.docextract.model.Category;
@@ -69,7 +68,7 @@ public class EvalRunner implements ApplicationRunner, ExitCodeGenerator {
     try {
       Manifest manifest =
           JSON.readValue(corpusDir.resolve("manifest.json").toFile(), Manifest.class);
-      PdfTextExtractor pdfs = new PdfTextExtractor(10);
+      PdfTextExtractor pdfs = new PdfTextExtractor(Integer.MAX_VALUE);
       List<Map<String, Object>> docs = new ArrayList<>();
       List<List<FieldOutcome>> predicted = new ArrayList<>();
       List<List<GoldSpan>> gold = new ArrayList<>();
@@ -86,8 +85,17 @@ public class EvalRunner implements ApplicationRunner, ExitCodeGenerator {
           predicted.add(fields);
           gold.add(mapped.spans());
           unmapped += mapped.unmapped();
-          docs.add(Map.of("id", d.id(), "fields", fields));
-        } catch (ExtractionException e) {
+          Scorer.Report one = Scorer.score(List.of(fields), List.of(mapped.spans()), mapped.unmapped());
+          Map<String, Object> entry = new LinkedHashMap<>();
+          entry.put("id", d.id());
+          entry.put("title", d.title() == null ? d.id() : d.title());
+          entry.put("pages", doc.pages());
+          entry.put("fields", fields);
+          entry.put("precision", one.overallPrecision());
+          entry.put("recall", one.overallRecall());
+          entry.put("f1", one.overallF1());
+          docs.add(entry);
+        } catch (RuntimeException e) { // any per-document failure is loud but does not stop the run
           failed = true;
           out.println("FAILED " + d.id() + ": " + e.getMessage());
         }

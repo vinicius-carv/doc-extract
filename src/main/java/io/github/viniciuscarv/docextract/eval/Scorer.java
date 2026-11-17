@@ -18,6 +18,8 @@ public final class Scorer {
   public record Report(
       Map<Category, Prf> perCategory,
       double overallF1,
+      double overallPrecision,
+      double overallRecall,
       double verifiedRate,
       double unsupportedRate,
       int unmapped) {}
@@ -60,9 +62,12 @@ public final class Scorer {
       allGold += goldCount;
     }
     double verified = ratio(supported, evidence);
+    Prf overall = prf(allHitPred, allPred, allHitGold, allGold);
     return new Report(
         per,
-        prf(allHitPred, allPred, allHitGold, allGold).f1(),
+        overall.f1(),
+        overall.precision(),
+        overall.recall(),
         verified,
         evidence == 0 ? 0 : 1 - verified,
         unmapped);
