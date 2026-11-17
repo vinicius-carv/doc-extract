@@ -1,0 +1,11 @@
+Contract excerpts and annotations in this corpus are derived from CUAD v1
+(Contract Understanding Atticus Dataset) by The Atticus Project.
+
+  CUAD v1: https://www.atticusprojectai.org/cuad
+  License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+           https://creativecommons.org/licenses/by/4.0/
+
+Attribution: "CUAD v1" by The Atticus Project, used under CC BY 4.0.
+Changes: selected documents only; annotation spans re-mapped to text extracted
+from the PDFs and reduced to six categories (Parties, Agreement Date,
+Effective Date, Expiration Date, Governing Law, Renewal Term).
