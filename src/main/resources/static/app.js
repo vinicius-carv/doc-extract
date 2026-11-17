@@ -14,7 +14,13 @@ function say(text, isError) {
 
 async function load(url, options) {
   say('Loading…');
-  const res = await fetch(url, options);
+  let res;
+  try {
+    res = await fetch(url, options);
+  } catch (e) {
+    say('Network error', true);
+    return null;
+  }
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
     say(body.detail || 'Request failed (' + res.status + ')', true);
