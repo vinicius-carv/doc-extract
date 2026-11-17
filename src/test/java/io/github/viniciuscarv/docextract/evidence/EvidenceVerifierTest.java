@@ -184,7 +184,7 @@ class EvidenceVerifierTest {
   }
 
   @Test
-  void spreadOcrEditsAreFuzzy() {
+  void spreadCharEditsAreFuzzy() {
     DocumentText d =
         doc(
             "Intro text. Tenant shall maintain insurance coverage during entire lease period"

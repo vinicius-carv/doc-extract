@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>doc-extract</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header><h1>doc-extract</h1><p>Contract fields, each backed by a verified quote.</p></header>
+  <main>
+    <section aria-labelledby="docs-h">
+      <h2 id="docs-h">Featured documents</h2>
+      <ul id="docs"></ul>
+    </section>
+    <section aria-labelledby="up-h">
+      <h2 id="up-h">Try your own PDF</h2>
+      <form id="upload">
+        <label for="file">PDF file (up to 10 MB, 10 pages)</label>
+        <input id="file" name="file" type="file" accept="application/pdf" required>
+        <button type="submit">Extract</button>
+      </form>
+    </section>
+    <p id="msg" role="status"></p>
+    <section id="result" aria-labelledby="res-h" hidden>
+      <h2 id="res-h" tabindex="-1"></h2>
+      <table>
+        <thead><tr><th scope="col">Category</th><th scope="col">Value</th><th scope="col">Quote</th><th scope="col">Status</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <h3>Cited page text</h3>
+      <p id="where"></p>
+      <pre id="page"></pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
