@@ -4,3 +4,4 @@ target/
 graphify-out/
 *.iml
 .idea/
+corpus/raw/

@@ -48,7 +48,7 @@ java -jar target/doc-extract-0.1.0-SNAPSHOT.jar
 
 # docker (Ollama on the host)
 docker build -t doc-extract .
-docker run --rm -p 8080:8080 doc-extract
+docker run --rm -p 8080:8080 --add-host=host.docker.internal:host-gateway doc-extract
 
 # eval: replay committed recordings, no Ollama needed
 java -jar target/doc-extract-0.1.0-SNAPSHOT.jar --eval
