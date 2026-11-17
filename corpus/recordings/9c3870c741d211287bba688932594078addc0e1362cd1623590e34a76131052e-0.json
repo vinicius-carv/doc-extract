@@ -1,0 +1,51 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter) and ANR PIPELINE COMPANY (Shipper)."
+      }
+    ],
+    "value": "Great Lakes Gas Transmission Limited Partnership and ANR PIPELINE COMPANY"
+  },
+  "agreement_date": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "Dated: December 14, 2015"
+      }
+    ],
+    "value": "December 14, 2015"
+  },
+  "effective_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "1. EFFECTIVE DATE: November 01, 2016"
+      }
+    ],
+    "value": "November 01, 2016"
+  },
+  "expiration_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "6. TERM: November 01, 2014 to October 31, 2017"
+      }
+    ],
+    "value": "October 31, 2017"
+  },
+  "governing_law": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in accordance with the laws of the State of Michigan."
+      }
+    ],
+    "value": "State of Michigan"
+  },
+  "renewal_term": {
+    "evidence": [],
+    "value": null
+  }
+}

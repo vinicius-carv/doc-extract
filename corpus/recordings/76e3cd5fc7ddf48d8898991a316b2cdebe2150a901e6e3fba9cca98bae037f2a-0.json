@@ -1,0 +1,46 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "FEDERATED INVESTMENT MANAGEMENT COMPANY, a Delaware statutory trust (the \"Adviser\"), and FEDERATED ADVISORY SERVICES COMPANY, a Delaware statutory trust (\"FASC\")"
+      }
+    ],
+    "value": "FEDERATED INVESTMENT MANAGEMENT COMPANY; FEDERATED ADVISORY SERVICES COMPANY"
+  },
+  "agreement_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "dated and effective as of March 30, 2009 (this \"Amendment\")"
+      }
+    ],
+    "value": "March 30, 2009"
+  },
+  "effective_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "This AMENDMENT TO SERVICES AGREEMENT, dated and effective as of March 30, 2009"
+      }
+    ],
+    "value": "March 30, 2009"
+  },
+  "expiration_date": {
+    "evidence": [],
+    "value": null
+  },
+  "governing_law": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "This Amendment shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania."
+      }
+    ],
+    "value": "Commonwealth of Pennsylvania"
+  },
+  "renewal_term": {
+    "evidence": [],
+    "value": null
+  }
+}

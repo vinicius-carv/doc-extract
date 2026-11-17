@@ -32,9 +32,21 @@ The eval compares extracted evidence with CUAD gold spans over a small corpus (`
 
 ## Results
 
-<!-- numbers -->
+10 CUAD contracts (1–6 pages each), `qwen3.5:9b` via local Ollama, prompt `v1`. Reproduce with `--eval` (replays `corpus/recordings/`).
 
-Numbers come in a later commit.
+| category | precision | recall | F1 |
+|---|---|---|---|
+| parties | 0.64 | 0.40 | 0.49 |
+| agreement_date | 0.70 | 0.70 | 0.70 |
+| effective_date | 0.56 | 0.56 | 0.56 |
+| expiration_date | 0.83 | 0.83 | 0.83 |
+| governing_law | 1.00 | 1.00 | 1.00 |
+| renewal_term | 1.00 | 1.00 | 1.00 |
+| **overall** | | | **0.64** |
+
+Supported rate 0.90 (10% of quotes the model gave could not be found on the page and are flagged `UNSUPPORTED`), 0 unmapped gold spans. CI fails below F1 0.62 (`corpus/baseline.json`).
+
+Contracts were picked from CUAD v1 by a fixed rule: labels in at least 4 of the 6 categories, at least 85% of their gold spans locatable in the PDF text layer, one contract per company; the CUAD title of each is kept in `corpus/manifest.json`. Small sample — read the numbers as a regression baseline, not a benchmark.
 
 ## Run
 

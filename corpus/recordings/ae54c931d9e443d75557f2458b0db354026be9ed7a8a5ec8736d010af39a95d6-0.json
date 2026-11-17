@@ -1,0 +1,46 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "by and between Lifeway Foods, Inc. ("
+        }
+      ],
+      "value": "Lifeway Foods, Inc. and Ludmila Smolyansky"
+    },
+    "agreement_date": {
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "This Endorsement Agreement ("
+        }
+      ],
+      "value": "March 14, 2016"
+    },
+    "effective_date": {
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "This Endorsement Agreement ("
+        }
+      ],
+      "value": "March 14, 2016"
+    },
+    "expiration_date": {
+      "evidence": [],
+      "value": null
+    },
+    "governing_law": {
+      "evidence": [
+        {
+          "page": 3,
+          "quote": "This Agreement will be construed and governed in accordance with the laws of the State of Illinois"
+        }
+      ],
+      "value": "State of Illinois"
+    },
+    "renewal_term": {
+      "evidence": [],
+      "value": null
+    }
+  }

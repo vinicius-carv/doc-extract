@@ -1,1 +1,74 @@
-{"documents": []}
+{
+ "documents": [
+  {
+   "id": "precheck-distributor",
+   "title": "Precheck Health Services — Distributor Agreement",
+   "cuadTitle": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement",
+   "pdf": "cuad/precheck-distributor.pdf",
+   "gold": "cuad/precheck-distributor.gold.json"
+  },
+  {
+   "id": "cano-sponsorship",
+   "title": "Cano Petroleum — Sponsorship Agreement",
+   "cuadTitle": "CANOPETROLEUM,INC_12_13_2007-EX-10.1-Sponsorship Agreement",
+   "pdf": "cuad/cano-sponsorship.pdf",
+   "gold": "cuad/cano-sponsorship.gold.json"
+  },
+  {
+   "id": "primeenergy-liquidity",
+   "title": "PrimeEnergy — Completion and Liquidity Maintenance Agreement",
+   "cuadTitle": "PRIMEENERGYRESOURCESCORP_04_02_2007-EX-10.28-COMPLETION AND LIQUIDITY MAINTENANCE AGREEMENT",
+   "pdf": "cuad/primeenergy-liquidity.pdf",
+   "gold": "cuad/primeenergy-liquidity.gold.json"
+  },
+  {
+   "id": "federated-services-amendment",
+   "title": "Federated Government Income Securities — Services Agreement Amendment",
+   "cuadTitle": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_AMENDMENT",
+   "pdf": "cuad/federated-services-amendment.pdf",
+   "gold": "cuad/federated-services-amendment.gold.json"
+  },
+  {
+   "id": "tcpipelines-transportation",
+   "title": "TC Pipelines — Transportation Agreement",
+   "cuadTitle": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement",
+   "pdf": "cuad/tcpipelines-transportation.pdf",
+   "gold": "cuad/tcpipelines-transportation.gold.json"
+  },
+  {
+   "id": "bellring-manufacturing",
+   "title": "BellRing Brands — Manufacturing Agreement",
+   "cuadTitle": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3",
+   "pdf": "cuad/bellring-manufacturing.pdf",
+   "gold": "cuad/bellring-manufacturing.gold.json"
+  },
+  {
+   "id": "ecoscience-sponsorship",
+   "title": "EcoScience Solutions — Sponsorship Agreement",
+   "cuadTitle": "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_Sponsorship Agreement",
+   "pdf": "cuad/ecoscience-sponsorship.pdf",
+   "gold": "cuad/ecoscience-sponsorship.gold.json"
+  },
+  {
+   "id": "intelligent-highway-alliance",
+   "title": "Intelligent Highway Solutions — Strategic Alliance Agreement",
+   "cuadTitle": "INTELLIGENTHIGHWAYSOLUTIONS,INC_01_18_2018-EX-10.1-Strategic Alliance Agreement",
+   "pdf": "cuad/intelligent-highway-alliance.pdf",
+   "gold": "cuad/intelligent-highway-alliance.gold.json"
+  },
+  {
+   "id": "dragon-outsourcing",
+   "title": "Dragon Systems — Outsourcing Agreement",
+   "cuadTitle": "DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCING AGREEMENT",
+   "pdf": "cuad/dragon-outsourcing.pdf",
+   "gold": "cuad/dragon-outsourcing.gold.json"
+  },
+  {
+   "id": "lifeway-endorsement",
+   "title": "Lifeway Foods — Endorsement Agreement",
+   "cuadTitle": "LifewayFoodsInc_20160316_10-K_EX-10.24_9489766_EX-10.24_Endorsement Agreement",
+   "pdf": "cuad/lifeway-endorsement.pdf",
+   "gold": "cuad/lifeway-endorsement.gold.json"
+  }
+ ]
+}

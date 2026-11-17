@@ -1,0 +1,39 @@
+{
+  "parties": {
+    "evidence": [
+      {"page": 1, "quote": "between PRIMEENERGY CORPORATION ('Prime'), GUARANTY BANK, FSB ('Guaranty') and PRIME OFFSHORE L.L.C. ('Offshore')"},
+      {"page": 3, "quote": "PRIME OFFSHORE L.L.C."},
+      {"page": 4, "quote": "GUARANTY BANK, FS B"}
+    ],
+    "value": "PRIMEENERGY CORPORATION, GUARANTY BANK, FSB, PRIME OFFSHORE L.L.C."
+  },
+  "agreement_date": {
+    "evidence": [
+      {"page": 1, "quote": "made and entered into effective as of June 29, 2006"},
+      {"page": 2, "quote": "This agreement is executed the date first hereinafter written,"}
+    ],
+    "value": "June 29, 2006"
+  },
+  "effective_date": {
+    "evidence": [
+      {"page": 1, "quote": "made and entered into effective as of June 29, 2006"}
+    ],
+    "value": "June 29, 2006"
+  },
+  "expiration_date": {
+    "evidence": [
+      {"page": 2, "quote": "This Agreement shall remain in force until each component of Project Completion is satisfied."}
+    ],
+    "value": null
+  },
+  "governing_law": {
+    "evidence": [
+      {"page": 2, "quote": "construed in accordance with and governed by the laws of the State of Texas"}
+    ],
+    "value": "State of Texas"
+  },
+  "renewal_term": {
+    "evidence": [],
+    "value": null
+  }
+}

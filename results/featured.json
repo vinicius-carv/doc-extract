@@ -1,45 +1,941 @@
 {
   "promptVersion" : "v1",
   "model" : "qwen3.5:9b",
-  "documents" : [ ],
+  "documents" : [ {
+    "id" : "precheck-distributor",
+    "title" : "Precheck Health Services — Distributor Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "EXHIBIT 99.2\r\nPage 1 of 3\r\nDISTRIBUTOR AGREEMENT\r\nAgreement made this 19t h day of March, 2020\r\nBetween:\r\nCo-Diagnostics, Inc. (herein referred to as “Principal”)\r\nAnd\r\nPreCheck Health Services, Inc. (herein referred to as “Distributor”).\r\nIn consideration of the mutual terms, conditions and covenants hereinafter set forth, Principal and Distributor acknowledge and agree to the following descriptions and conditions:\r\nDESCRIPTION OF PRINCIPAL\r\nThe Principal is a company located in Utah, United States and is in the business of research and development of reagents. The Principal markets and sells it products globally through direct\r\nsales and distributors.\r\nDESCRIPTION OF DISTRIBUTOR\r\nThe Distributor is a company operating or planning to operate in the United States of America, Latin America, Europe and Russia. The Distributor represents that the Distributor or a subsidiary\r\nof the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.\r\nCONDITIONS:\r\n1. The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal’s qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx Box™ instrument (the\r\n“Products”). The Products are described on Exhibit A to this Agreement.\r\n2. The Principal grants Distributor non- exclusive rights to sell these products within the countries of Romania (the “Territory”), which may be amended by mutual written agreement.\r\nSource: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020\r\n"
+    }, {
+      "number" : 2,
+      "text" : "3. The Distributor accepts the appointment and shall use its commercially reasonable efforts to promote, market and sell the Products within the Territory, devote such time and attention as may be\r\nreasonably necessary and abide by the Principal’s policies.\r\n4. The Principal shall maintain the right to contact and market its products to potential customers in the Territory; but agrees to pass on all sales leads and orders to the Distributor.\r\n5. The parties agree that the list of Products and/or prices may be amended from time to time. The Principal may unilaterally remove Products from the catalog or change prices. Additions to the\r\nProducts shall be by mutual agreement. However, in the event the Distributor rejects a new product addition to the product list, the Principal shall then retain the right to market and distribute\r\nthe new product that is rejected by the Distributor.\r\n6. Unless accepted by the Principal, the Distributor agrees that during the term of this Agreement, the Distributor, either directly or indirectly, shall handle no products that are competitive with the\r\nProducts within the Territory.\r\n7. The Distributor shall obtain at its own expense, all necessary licenses and permits to allow the Distributor to conduct business as contemplated herein. The Distributor represents and warrants\r\nthat the Distributor shall conduct business in strict conformity with all local, state and federal laws, rules and regulations.\r\n8. The Principal agrees that the Distributor may employ or engage representatives or sub-distributors in furtherance of this Agreement and the Distributor agrees that the Distributor shall be\r\nsolely responsible for the payment of wages or commissions to those representatives and sub-distributors, and that under no circumstances shall Distributor’s representatives be deemed\r\nemployees of Principal for any purpose whatsoever.\r\n9. Principal will grant Distributor a discount based on the Products and Prices. The proposed discount is expected to be ¨%. Discount may vary depending on product volume ordered or\r\npromotions.\r\n10. This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.\r\n11. In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory.\r\nPayment to be made upon shipment.\r\nSource: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020\r\n"
+    }, {
+      "number" : 3,
+      "text" : "12. In the event of termination, neither party, their heirs nor successors shall issue any challenge whatsoever to contest the termination.\r\n13. The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, nor\r\nshall either party have any authority to bind the other in any respect, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole\r\ndiscretion.\r\n14. It is agreed between the parties that there are no other agreements or understandings between them relating to the subject matter of this Agreement. This Agreement supersedes all prior\r\nagreements, oral or written, between the parties and is intended as a complete and exclusive statement of the agreement between the parties. No change or modification of this Agreement shall\r\nbe valid unless the same be in writing and signed by the parties.\r\n15. This Agreement shall not be assigned by the Distributor without the prior written consent of the Principal.\r\n16. Official communication from Distributor or the Principal shall be in written form or by email, acknowledged by the recipient.\r\n17. This Agreement shall be construed in accordance with and governed by the laws of the State of Texas without regard to principles of conflicts of laws.\r\n18. Each of Principal and Distributor represents that it has the right to enter into this Agreement and that this Agreement does not violate any agreement to which it is a party. Principal represents\r\nthat it owns or has rights to the intellectual property embodied in the Products.\r\nIntending to be legally bound, the parties hereto have caused this Agreement to be executed as of the date first above written.\r\nBY /s/ Cameron Gundry BY /s/ Justin Anderson\r\nCameron Gundry, Dir. of Commercialization Justin Anderson, CEO\r\nCo-Diagnostics, Inc. PreCheck Health Services, Inc.\r\n(Principal) (Distributor)\r\nSource: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020\r\n"
+    }, {
+      "number" : 4,
+      "text" : ".EXHIBIT A\r\nLIST OF PRODUCTS\r\nSource: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020\r\n"
+    }, {
+      "number" : 5,
+      "text" : "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020\r\n"
+    }, {
+      "number" : 6,
+      "text" : "Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "Co-Diagnostics, Inc. and PreCheck Health Services, Inc.",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "Between: Co-Diagnostics, Inc. (herein referred to as \"Principal\") And PreCheck Health Services, Inc. (herein referred to as \"Distributor\")."
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 96,
+        "end" : 238
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "March 19, 2020",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "Agreement made this 19t h day of March, 2020"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 50,
+        "end" : 94
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "March 19, 2020",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "Intending to be legally bound, the parties hereto have caused this Agreement to be executed as of the date first above written."
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 1685,
+        "end" : 1812
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : "March 18, 2021",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause."
+        },
+        "status" : "VERIFIED",
+        "page" : 2,
+        "start" : 2085,
+        "end" : 2227
+      } ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Texas",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "This Agreement shall be construed in accordance with and governed by the laws of the State of Texas without regard to principles of conflicts of laws."
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 1249,
+        "end" : 1399
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 0.8,
+    "recall" : 0.8571428571428571,
+    "f1" : 0.8275862068965518
+  }, {
+    "id" : "cano-sponsorship",
+    "title" : "Cano Petroleum — Sponsorship Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : " \r\nQuickLinks -- Click here to rapidly navigate through this document \r\n   \r\nEXHIBIT 10.1\r\n \r\nSponsorship Agreement  \r\nTHIS AGREEMENT made this 5th day of December, 2007, between R. C. Boyd Enterprises, LLC, a Texas limited liability company, whose principal \r\nplace of business is located at 2003 Navasota Cove, Westlake, Texas, referred to in this Agreement as \"Company\" or \"Boyd\", and Cano Petroleum, \r\nInc., a Delaware corporation qualified to transact business in Texas, whose principal place of business is located at 801 Cherry Street, Suite 3200, \r\nFort Worth, Texas 76102, referred to in this agreement as \"Sponsor\" or \"Cano\".  \r\nWHEREAS, the Company is the owner of the rights to the television production known as Honey Hole (hereinafter \"Honey Hole\" or \"Show\");  \r\nWHEREAS, Sponsor desires to acquire the exclusive right to be the lead sponsor of the Show at an agreed price and under specified terms and \r\nconditions;  \r\nNOW, THEREFORE, for and in consideration of the premises and the mutual promises, covenants, and agreements set forth in this Agreement, the \r\nCompany and Cano agree as follows:  \r\n1. Required Production. The Company shall produce no less than forty (40) original episodes of the Show per year;  \r\n2. Lead Sponsorship. The Company agrees that Cano shall be identified as the lead sponsor, by having a thirty second lead-in promotion \r\nat the beginning of each episode; a thirty second trailer promotion at the end of each episode; and two thirty second commercials during \r\neach episode.  \r\n3. Signage at Public Appearances. The Company agrees that Cano shall be entitled to place signage, up to 6 feet × 10 feet at each public \r\nappearance made by Honey Hole, including four (4) \"Kids Corner\" children's benefits during the term of this Agreement.  \r\n4. Use of Logo. The Company agrees that the Cano logo and slogan shall appear on the primary boat and vehicle used in each episode. \r\nCano recognizes and agrees that it does not and will not have exclusive rights and that other sponsor's logos may appear on the primary \r\nboat and vehicle. The Company agrees that Cano's logo shall be substantially the same size as other such sponsors;  \r\n5. Featured Guests. The Company agrees to feature not less than two (2) persons designated by Cano as guests on not less than six (6) \r\nseparate episodes per year.  \r\n6. Provision of Lead in Trailer and Commercials. Cano has already provided the Company with voice over lead-in(s), 30 second \r\ncommercials and trailers of a quality satisfactory to the Company and content that meets the Company's minimum standards. The Company \r\nshall utilize the already produced lead-in, commercials and trailers.  \r\n7. Sales and Other Taxes. The Company will add sales, excise and any other tax or surcharge to its invoices which it is obligated to collect \r\nand remit under the laws of the State of Texas, the United States or any other jurisdiction.  \r\n8. Notice. Any notice provided for under the terms of this Agreement by either party to the other shall be in writing and may be effected by \r\npersonal delivery in writing or registered or certified mail, return receipt requested. Notice to Boyd shall be sufficient if made or addressed \r\nto 2003 Navasota Cove, Westlake, Texas 76092. Notice to Cano shall be sufficient if made or addressed to Cano Petroleum, Inc., 801 Cherry \r\nStreet, Suite 3200, Fort Worth, Texas 76102. Each party may change the address at which notice may be sent to that party by giving notice \r\nof such change to the other party in accordance with the provisions of this Paragraph.  \r\n9. Term and Renewal. The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008.  \r\n"
+    }, {
+      "number" : 2,
+      "text" : "  \r\n \r\n10. Force Majeure. In the event that either party shall be prevented from performing any of its obligations due under the terms of this \r\nAgreement by an act of God, by acts of war, riot, or civil commotion, by an act of State, by strikes, fire, flood, or by the occurrence of any \r\nother event beyond the control of the parties hereto, that party shall be excused from any further performance of the obligations and \r\nundertakings set forth under the terms of this Agreement.  \r\n11. Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Texas and venue for \r\nany legal action brought in State Court shall lie exclusively in Tarrant County, Texas and venue for any action brought in federal court shall \r\nlie exclusively in the Northern District of Texas, Fort Worth Division.  \r\n12. Rights Cumulative. The rights and remedies granted in this agreement to Cano in the event of default are cumulative, and the exercise \r\nof such rights shall be without prejudice to the enforcement of any other right or remedy authorized by law or this agreement.  \r\n13. Attorneys' Fees. If any legal action is brought by either of the parties hereto, it is expressly agreed that the prevailing party in such legal \r\naction shall be entitled to recover from the other party reasonable attorney's fees in addition to any other relief that may be awarded. For \r\nthe purposes of this clause, the prevailing party is the party in whose favor final judgment is entered. In the event that declaratory or \r\ninjunctive relief alone is granted, the court may determine which, if either, of the parties shall be considered to be the prevailing party. The \r\namount of reasonable attorney's fees shall be determined by the court, in the trial of such action or in a separate action brought for that \r\npurpose. Attorney's fees awarded under the provisions of this paragraph shall be in addition to any other relief that may be awarded.  \r\n14. Multiple Counterparts. This Agreement is executed in duplicate copies, each of which shall be considered a true and original copy of \r\nthis Agreement.  \r\n15. Payment of Money. In consideration of the services to be rendered under this Agreement as set forth above, the Company shall be \r\nentitled to compensation in the amount of $150,000.00 (One Hundred Fifty Thousand Dollars), to be paid in equal installments of $37,500.00 \r\n(Thirty Seven Thousand Five Hundred Dollars) on January 1, 2008, April 1, 2008, July 1, 2008 and October 1, 2008. If Cano fails to make any \r\npayment when required by this Agreement, the Company shall have the option of canceling this Agreement following the passage of ten \r\n(10) days after having given Cano written notice of its default. While the Company shall have no further obligation to Cano following \r\ncancellation of the Agreement, Cano shall remain liable for all unpaid installments for the then current term of the Agreement, which \r\ninstallments shall be immediately due and payable.  \r\n16. Exculpatory Clause. The parties agree that Cano will not be liable to the Company or any third party for any injury sustained by the \r\nCompany, its employees, independent contractors, invitees or any other third party while preparing for, filming or working on post \r\nproduction of any episode.  \r\n17. Place of Performance. All sums payable under this Agreement shall be paid to the Company at Southlake, Tarrant County, Texas.  \r\n18. Assignment. This Agreement may not be assigned by either party without the prior written consent of the other party.  \r\n19. Other Agreements. This Agreement supersedes any and all other agreements, either oral or in writing, between the parties with respect \r\nto the subject matter of this contract, and contains all of the covenants and agreements between the parties with respect to the subject \r\nmatter. Each party to this contract acknowledges that no representations, inducements, promises, or agreements, orally or otherwise, have \r\nbeen made by any party, or anyone acting on behalf of any party, that are  \r\n2 \r\n"
+    }, {
+      "number" : 3,
+      "text" : "  \r\n \r\nnot set forth in this contract, and that no agreement, statement, or promise not contained in this contract shall be valid or binding.  \r\n20. Partial Invalidity. If any term or provision of this Agreement is held by a court of competent jurisdiction to be invalid, void, or \r\nunenforceable, the remainder of the provisions of this agreement shall remain in full force and effect and shall in no way be affected, \r\nimpaired, or invalidated.  \r\n21. Government Regulation. This Agreement is subject to all applicable federal, state and municipal laws, regulations and ordinances, \r\nwhether existing or enacted hereafter, including the rules and regulations of all governmental agencies or commissions having jurisdiction \r\nin matters covered by this Agreement or either of the parties hereto.  \r\nThis Agreement is executed in duplicate on the 5th day of December, 2007, in Fort Worth, Tarrant County, Texas, to be effective January 1, 2008.  \r\n    R. C. BOYD ENTERPRISES, LLC\r\n    \r\n  By: /s/ R.C. Boyd\r\nPrinted Name: R.C. Boyd \r\nTitle: President\r\n   \r\n  CANO PETROLEUM, INC.\r\n    \r\n  By: /s/ Jeff Johnson\r\nPrinted name: Jeff Johnson \r\nTitle: CEO\r\n3 \r\n"
+    }, {
+      "number" : 4,
+      "text" : " \r\n \r\nQuickLinks \r\nEXHIBIT 10.1 \r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "R. C. Boyd Enterprises, LLC; Cano Petroleum, Inc.",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "between R. C. Boyd Enterprises, LLC, a Texas limited liability company... and Cano Petroleum, Inc., a Delaware corporation..."
+        },
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "December 5, 2007",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "THIS AGREEMENT made this 5th day of December, 2007"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 119,
+        "end" : 169
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "January 1, 2008",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "to be effective January 1, 2008."
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 912,
+        "end" : 944
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : "December 31, 2008",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 3598,
+        "end" : 3707
+      } ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Texas",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "This Agreement shall be governed by and construed in accordance with the laws of the State of Texas"
+        },
+        "status" : "VERIFIED",
+        "page" : 2,
+        "start" : 506,
+        "end" : 605
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 1.0,
+    "recall" : 0.4,
+    "f1" : 0.5714285714285715
+  }, {
+    "id" : "primeenergy-liquidity",
+    "title" : "PrimeEnergy — Completion and Liquidity Maintenance Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "EXHIBIT 10.23\r\nCOMPLETION AND LIOUDm MAINTENANCE 4GRFFMFST\r\nTHIS COMPLEHON AGREEMENT AND UQITDITV MAINTENANCE AGREEMENT ( 'Agreement”) {5 made and entered into effective as of \r\nJune 29, 2006 between PRIMEEVERG\\’CORPORATION ( Time\"), GUARANTY BANK, FSB (‘Guaranty\") and PRIME OFFSHORELT.C.\r\nT: Offshore”!\r\nPrime is the majority shareholder of Prime Offshore L.L.C. COffshore”! Offshore and Guaranty are parties to a Credit Agreement dated June 29, \r\n2006, by and between Offshore as Borrower and Guaranty, as Agent and Lender i “Credit Agreement'T wherein Guaranty is loaning certain funds \r\nto Offshore to drill and complete wells and construct, install and operate in-field and flow pipelines, caissons, platforms and production facilities \r\nfor wells m South Padre Island Area OCS Blocks 1113, 1059, 1060, 1073 and 1133 and North Padre Island Area OCS Block 998 T‘Derelopment \r\nProject”).\r\n1. Completion Commrtiryr.t\r\nEach of the South Padre Island Area OCS Blocks 1113,1059,1060,1073 and 1133 and the North Padre Island Area OCS Block 998 shall be defined \r\nas a “Project Field.’’\r\nFor purposes ofthis Agreement, Project Completion shall consist oftwo components and be defined as:\r\nA) each Project Field in the Development Project having all planned in-field and flow pipelines, caissons, platforms and production facilities \r\nfor all the wells in such Project Field, for which Guaranty has loaned funds, installed and operationalsuch that the production from all such \r\nwells can be transported to a readily available sales point for naturalgas. In addition, for each Project Field, Project Completion will include, \r\nbut not limited to:\r\na) obtaining required permits, easements and governmental approvals;\r\nb) executing necessary\" construction contract(s);\r\nc) completing tests considered usual and customary\" and required to be conducted with results tn accordance with those necessary\" to \r\npermit operations;\r\nd) ensuring that each Project Field is free and clear of all bens other than those in favor of Guaranty and Permitted Liens under the Credit \r\nAgreement and:\r\ne) causing all costs of the Development Project to be paid when due; and,\r\nB) the 12-inch loop pipeline fromNorth Padre Island Area OCS Block 996 to the pipeline owned by the Williams Companies Inc. having been \r\nconstructed and installed in accordance with the plans and specifications in the construction contracts).\r\n"
+    }, {
+      "number" : 2,
+      "text" : "As consideration for Guaranty entering into the Credit Agreement to provide such loans for the Development Project and to ensure Project \r\nCompletion. Prime absolutely and unconditionally warrants to Guaranty to fund the payment to Offshore of all costs that exzeed the available \r\ncommitments under the Credit Agreement, including interest, for Project Completion. In the event Offshore is in Default under Section 7.1(f), (g), \r\n(h) and/or (i) ofthe Credit Agreement, then Prime absolutely and unconditionally warrants to Guaranty\" the assumption of all costs for Project \r\nCompletion.\r\n2. Licuieitv Maintenance\r\nPrime will, during the term of the Credit Agreement, maintain liquidity consisting of unused revolver availability\" under the Credit Agreement dated \r\nDecember!, 2002, as amended, with Prime et aland Guaranty, and/or unrestricted cash and cash equivalents of $25,000,000. This required liquidity\" \r\nwin reduce dollar-for-dollar with any additional shareholder advance s and increase dollar-for-dollar to a maximum of $21,000,000 with any \r\nrepayment of shareholder advances. To the extent that shareholder repayment has occurred, Prime agrees to fund additional shareholder loans \r\nequal to the amount repayed by the shareholder, as needed to ensure Project Clomp let ion\r\nThis Agreement shall remain in force until each component ofProject Completion is satisfied. Once a component is satisfied, Prime's absolute and \r\nunconditional warranty to Guaranty to fund the payment to Offshore of ad costs that esceed the available commitments under the Credit \r\nAgreement for that conponent, including interest, wid ejpire.\r\nPrime understands that a breach ofobligations under this Agreement would result in an Event ofDefault under the Credit Agreement with \r\nOffshore that would permit Guaranty to pursue its available remedies under the Credit Agreement. Offshore is executing this Agreement to \r\nacknowledge that a breach ofthis Agreement would result in an Event ofDefault under the Credit Agreement.\r\nThis Agreement shad be deemed a contract made under and shall be construed in accordance with and governed by the laws ofthe State ofTexas \r\nand that actions arising out ofthis Agreement may be litigated in courts having situs in Harris County, Texas.\r\nThis agreement is executed the date first hereinafter written,\r\nPRIMEEVERGY CORPORATION\r\nBy:-*\" Beverly A. Cummings______\r\nBeverly A. Cummings \r\nExecutive Vice President\r\n-2 -\r\n"
+    }, {
+      "number" : 3,
+      "text" : "PRIME OFFSHORE L.L.C.\r\nByi'Sj' JimR- Brcck___________________\r\nJiinE. Brcck\r\nPresident and Chief Financial Officer\r\n"
+    }, {
+      "number" : 4,
+      "text" : "GUARANTY BANK, FS B \r\n' Kelly L. ELmcre. El \r\nKell)r L Ebncre. IH \r\nSenicr Vice Press idenl\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "PRIMEENERGY CORPORATION, GUARANTY BANK, FSB, PRIME OFFSHORE L.L.C.",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "between PRIMEENERGY CORPORATION ('Prime'), GUARANTY BANK, FSB ('Guaranty') and PRIME OFFSHORE L.L.C. ('Offshore')"
+        },
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
+      }, {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "PRIME OFFSHORE L.L.C."
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 0,
+        "end" : 21
+      }, {
+        "claimed" : {
+          "page" : 4,
+          "quote" : "GUARANTY BANK, FS B"
+        },
+        "status" : "VERIFIED",
+        "page" : 4,
+        "start" : 0,
+        "end" : 19
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "June 29, 2006",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "made and entered into effective as of June 29, 2006"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 138,
+        "end" : 191
+      }, {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "This agreement is executed the date first hereinafter written,"
+        },
+        "status" : "VERIFIED",
+        "page" : 2,
+        "start" : 2269,
+        "end" : 2331
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "June 29, 2006",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "made and entered into effective as of June 29, 2006"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 138,
+        "end" : 191
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : null,
+      "evidence" : [ ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Texas",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "construed in accordance with and governed by the laws of the State of Texas"
+        },
+        "status" : "FUZZY",
+        "page" : 2,
+        "start" : 2081,
+        "end" : 2154
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 0.5,
+    "recall" : 0.3333333333333333,
+    "f1" : 0.4
+  }, {
+    "id" : "federated-services-amendment",
+    "title" : "Federated Government Income Securities — Services Agreement Amendment",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "AMENDMENT TO SERVICES AGREEMENT\r\nThis AMENDMENT TO SERVICES AGREEMENT, dated and effective as of March 30, 2009 (this “Amendment”), is made\r\nbetween FEDERATED INVESTMENT MANAGEMENT COMPANY, a Delaware statutory trust (the “Adviser”), and\r\nFEDERATED ADVISORY SERVICES COMPANY, a Delaware statutory trust (“FASC”). Capitalized terms used, but not defined,\r\nin this Amendment have the meanings given to such terms in the Services Agreement (as defined below).\r\nRECITALS\r\nWHEREAS, the Adviser and FASC have entered into that certain Services Agreement dated as of January 1, 2004 (as amended,\r\nthe “Services Agreement”), pursuant to which FASC provides certain performance attribution, administration and risk management,\r\nequity trading and transaction settlement, fundamental analysis, and quantitative analysis services to Adviser in connection with\r\nAdviser providing investment advisory or sub-advisory services to investment companies registered under the Investment Company\r\nAct of 1940 (“1940 Act”) and/or separate accounts not required to be so registered (collectively, “Accounts”); and\r\nWHEREAS, the Adviser and FASC desire to amend the Services indicated in Exhibit A to the Services Agreement, solely with\r\nrespect to Accounts that are not investment companies registered under the 1940 Act, to provide that, as part of the administration\r\nand risk management services provided by FASC, FASC may provide certain coordination of client portfolios and related fixed income\r\ntrade execution implementation and administration services to Adviser when Adviser is acting as adviser or sub-adviser with respect\r\nto such Accounts.\r\nNOW, THEREFORE, the parties hereto, intending to be legally bound, agree as follows:\r\n1. Amendment to Exhibit A to Services Agreement. Solely with respect to Accounts that are not investment companies registered\r\nunder the 1940 Act, the section of Exhibit A to the Services Agreement entitled “Administration and Risk Management” shall be, and\r\nhereby is, deleted in its entirety and replaced with the following:\r\n“2. Administration and Risk Management. Employees of Federated Advisory Services Company provide support to portfolio\r\nmanagers and other employees of affiliated advisers. Such services may include development of risk management\r\nprograms, production of portfolio and compliance reports for clients and/or fund Boards, coordination of client portfolios\r\nand related fixed income trade execution implementation and administration, completion of required broker and custody\r\ndocumentation, development and documentation of operational procedures, coordination of proxy voting activities, on-site\r\nsupport of hardware and software, etc.”\r\n2. Miscellaneous. This Amendment shall be effective as of the date first above written upon its execution and delivery by each of\r\nthe parties hereto. The Services Agreement, as amended by this Amendment with respect to Accounts that are not investment\r\ncompanies registered under the 1940 Act, shall remain in full force and effect. The Services Agreement also shall remain in full force\r\nand effect without amendment with respect to Accounts that are investment companies under the 1940 Act. This Amendment shall\r\nbe governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania. This Amendment may be\r\nexecuted in one or more counterparts, each of which will be deemed to be an original copy of this Amendment and all of which, when\r\ntaken together, will be deemed to constitute one and the same agreement.\r\nIN WITNESS WHEREOF, the parties hereto, through their duly authorized officers, have executed this Amendment as of the\r\ndate first above written.\r\nFEDERATED INVESTMENT MANAGEMENT FEDERATED ADVISORY SERVICES COMPANY\r\nCOMPANY\r\nBy: /s/ John B. Fisher By: /s/ J. Christopher Donahue\r\nName: John B. Fisher Name: J. Christopher Donahue\r\nTitle: President Title: Chairman\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "FEDERATED INVESTMENT MANAGEMENT COMPANY; FEDERATED ADVISORY SERVICES COMPANY",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "FEDERATED INVESTMENT MANAGEMENT COMPANY, a Delaware statutory trust (the \"Adviser\"), and FEDERATED ADVISORY SERVICES COMPANY, a Delaware statutory trust (\"FASC\")"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 149,
+        "end" : 311
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "March 30, 2009",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "dated and effective as of March 30, 2009 (this \"Amendment\")"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 71,
+        "end" : 130
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "March 30, 2009",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This AMENDMENT TO SERVICES AGREEMENT, dated and effective as of March 30, 2009"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 33,
+        "end" : 111
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : null,
+      "evidence" : [ ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "Commonwealth of Pennsylvania",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This Amendment shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania."
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 3177,
+        "end" : 3292
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 1.0,
+    "recall" : 1.0,
+    "f1" : 1.0
+  }, {
+    "id" : "tcpipelines-transportation",
+    "title" : "TC Pipelines — Transportation Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "QuickLinks -- Click here to rapidly navigate through this document\r\nExhibit 99.12 \r\nTRANSPORTATION SERVICE AGREEMENT\r\nContract Identification FT18150\r\nThis Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter)\r\nand ANR PIPELINE COMPANY (Shipper).\r\nWHEREAS, Shipper has requested Transporter to transport Gas on its behalf and Transporter represents that it is willing to transport\r\nGas under the terms and conditions of this Agreement.\r\nNOW, THEREFORE, Transporter and Shipper agree that the terms below constitute the transportation service to be provided and the\r\nrights and obligations of Shipper and Transporter.\r\n1. EFFECTIVE DATE: November 01, 2016 \r\n2. CONTRACT IDENTIFICATION: FT18150 \r\n3. RATE SCHEDULE: FT \r\n4. SHIPPER TYPE: Interstate Pl \r\n5. STATE/PROVINCE OF INCORPORATION: Delaware \r\n6. TERM: November 01, 2014 to October 31, 2017 \r\n7. EFFECT ON PREVIOUS CONTRACTS:\r\nThis Agreement supersedes, cancels and terminates, as of the effective date stated above, the following contract(s): Service\r\nAgreement dated November 01, 2015 with Contract Identification FT18150.\r\n8. MAXIMUM DAILY QUANTITY (Dth/Day): 101,300\r\nPlease see Appendix A for further detail.\r\n9. RATES:\r\nUnless Shipper and Transporter have agreed to a rate other than the maximum rate, rates shall be Transporter's maximum rates\r\nand charges plus all applicable surcharges in effect from time to time under the applicable Rate Schedule (as stated above) on\r\nfile with the Commission unless otherwise agreed to by the parties in writing. Provisions governing a Rate other than the\r\nmaximum shall be set forth in this Paragraph 9 and/or on Appendix B hereto.\r\n10. POINTS OF RECEIPT AND DELIVERY:\r\nThe primary receipt and delivery points are set forth on Appendix A.\r\n11. RELEASED CAPACITY:\r\nN/A\r\n12. INCORPORATION OF TARIFF INTO AGREEMENT:\r\nThis Agreement shall incorporate and in all respects be subject to the \"General Terms and Conditions\" and the applicable Rate\r\nSchedule (as stated above) set forth in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, as may be revised from time\r\nto time. Transporter may file and seek Commission approval under Section 4 of the Natural Gas Act (NGA) at any time and from\r\ntime to time to change any rates, charges or provisions set forth in the applicable Rate Schedule (as stated above) and the\r\n\"General Terms and Conditions\" in Transporter's FERC Gas Tariff, Third Revised Volume No. 1, and Transporter shall have the\r\nright to place such changes in effect in accordance with the NGA, and this Agreement shall be deemed to include such changes\r\nand any such changes\r\nSource: TC PIPELINES LP, 10-K, 2/26/2016\r\n"
+    }, {
+      "number" : 2,
+      "text" : "which become effective by operation of law and Commission Order, without prejudice to Shipper's right to protest the same.\r\n13. MISCELLANEOUS:\r\nNo waiver by either party to this Agreement of any one or more defaults by the other in the performance of this Agreement shall\r\noperate or be construed as a waiver of any continuing or future default(s), whether of a like or a different character.\r\nAny controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in\r\naccordance with the laws of the State of Michigan.\r\n14. OTHER PROVISIONS:\r\nIt is agreed that no personal liability whatsoever shall attach to, be imposed on or otherwise be incurred by any Partner, agent,\r\nmanagement official or employee of the Transporter or any director, officer or employee of any of the foregoing, for any obligation\r\nof the Transporter arising under this Agreement or for any claim based on such obligation and that the sole recourse of Shipper\r\nunder this Agreement is limited to assets of the Transporter.\r\nUpon termination of this Agreement, Shipper's and Transporter's obligations to each other arising under this Agreement, prior to\r\nthe date of termination, remain in effect and are not being terminated by any provision of this Agreement.\r\n15. NOTICES AND COMMUNICATIONS:\r\nAll notices and communications with respect to this Agreement shall be in writing by mail, e-mail, or fax, or other means as\r\nagreed to by the parties, and sent to the addresses stated below or to any other such address(es) as may be designated in\r\nwriting by mail, e-mail, or fax, or other means similarly agreed to:\r\nADMINISTRATIVE MATTERS\r\nGreat Lakes Gas Transmission Limited Partnership ANR PIPELINE COMPANY\r\nCommercial Services 700 Louisiana St., Suite 700\r\n700 Louisiana St., Suite 700 Houston, TX 77002-2700\r\nHouston, TX 77002-2700 Attn:\r\nAGREED TO BY:\r\nGREAT LAKES GAS TRANSMISSION ANR PIPELINE COMPANY\r\nLIMITED PARTNERSHIP\r\nBy: Great Lakes Gas Transmission Company\r\n/s/ STEVEN D. JASKOLSKI /s/ JOSEPH E. POLLARD\r\nSteven D. Jaskolski Joseph E. Pollard\r\nDirector, Commercial Services Director, Long Term Marketing\r\nDated: December 14, 2015 Dated: December 14, 2015\r\nSource: TC PIPELINES LP, 10-K, 2/26/2016\r\n"
+    }, {
+      "number" : 3,
+      "text" : "APPENDIX A \r\nContract Identification FT18150\r\nDate: November 01, 2016\r\nSupersedes Appendix Dated: November 01, 2015\r\nShipper: ANR PIPELINE COMPANY\r\nMaximum Daily Quantity (Dth/Day) per Location:\r\nMaximum\r\nAllowable\r\nOperating\r\nPressure\r\nBegin Date End Date Point(s) of Primary Receipt Point(s) of Primary Delivery MDQ (MAOP)\r\n11/01/2014 03/31/2015 SOUTH CHESTER 101,300 974\r\n11/01/2014 03/31/2015 DEWARD 101,300 974\r\n04/01/2015 10/31/2015 SOUTH CHESTER 0 974\r\n11/01/2015 03/31/2016 SOUTH CHESTER 101,300 974\r\n11/01/2015 03/31/2016 DEWARD 101,300 974\r\n04/01/2016 10/31/2016 SOUTH CHESTER 0 974\r\n11/01/2016 03/31/2017 SOUTH CHESTER 101,300 974\r\n11/01/2016 03/31/2017 DEWARD 101,300 974\r\n04/01/2017 10/31/2017 SOUTH CHESTER 0 974\r\n11/01/2014 03/31/2015 FARWELL 101,300 974\r\n04/01/2015 10/31/2015 FARWELL 0 974\r\n11/01/2015 03/31/2016 FARWELL 101,300 974\r\n04/01/2016 10/31/2016 FARWELL 0 974\r\n11/01/2016 03/31/2017 FARWELL 101,300 974\r\n04/01/2017 10/31/2017 FARWELL 0 974\r\nSource: TC PIPELINES LP, 10-K, 2/26/2016\r\n"
+    }, {
+      "number" : 4,
+      "text" : "QuickLinks\r\nExhibit 99.12\r\nTRANSPORTATION SERVICE AGREEMENT Contract Identification FT18150\r\nAPPENDIX A Contract Identification FT18150\r\nSource: TC PIPELINES LP, 10-K, 2/26/2016\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "Great Lakes Gas Transmission Limited Partnership and ANR PIPELINE COMPANY",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This Transportation Service Agreement (Agreement) is entered into by Great Lakes Gas Transmission Limited Partnership (Transporter) and ANR PIPELINE COMPANY (Shipper)."
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 151,
+        "end" : 319
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "December 14, 2015",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "Dated: December 14, 2015"
+        },
+        "status" : "VERIFIED",
+        "page" : 2,
+        "start" : 2140,
+        "end" : 2164
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "November 01, 2016",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "1. EFFECTIVE DATE: November 01, 2016"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 691,
+        "end" : 727
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : "October 31, 2017",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "6. TERM: November 01, 2014 to October 31, 2017"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 871,
+        "end" : 917
+      } ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Michigan",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "Any controversy between the parties arising under this Agreement and not resolved by the parties shall be determined in accordance with the laws of the State of Michigan."
+        },
+        "status" : "VERIFIED",
+        "page" : 2,
+        "start" : 394,
+        "end" : 565
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 1.0,
+    "recall" : 1.0,
+    "f1" : 1.0
+  }, {
+    "id" : "bellring-manufacturing",
+    "title" : "BellRing Brands — Manufacturing Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "AMENDMENT NO. 2 TO STREMICK’S HERITAGE FOODS, LLC and PREMIER\r\nNUTRITION CORPORATION MANUFACTURING AGREEMENT\r\nThis Second Amendment (“Second Amendment”), entered into by and between Stremick’s Heritage Foods, LLC, (“Heritage”), Premier Nutrition\r\nCorporation (“Premier”) is effective as of October 1, 2018 (“Second Amendment Effective Date”) and amends that certain Manufacturing Agreement\r\nbetween Heritage and Premier dated July 1, 2017 (“Agreement”). Heritage and Premier are each referred to herein as a “Party” and collectively as the\r\n“Parties”.\r\nWHEREAS, PREMIER and HERITAGE entered into the Agreement;\r\nWHEREAS, the Parties wish to extend and amend the Agreement in accordance with the terms and conditions set forth herein; and\r\nWHEREAS, HERITAGE [***] desires to produce Products packaged in aseptic plastic bottles (“Bottled Products”) for PREMIER in accordance with the\r\nterms and conditions set forth in the Agreement, as well as those set forth herein, [***]; and\r\nNOW, THEREFORE, in consideration of the promises and of the mutual covenants, representations and warranties, contained in the Agreement\r\nand set forth herein, the Parties hereby agree that the following changes be made to the Agreement:\r\n1. Term. This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021. Upon\r\nexpiration, this Second Amendment shall be of no further force or effect, and the terms and conditions of the Agreement shall as they were\r\nbefore the Second Amendment Effective Date. Notwithstanding anything herein to the contrary, a Party’s right to enforce the terms and\r\nconditions of this Second Amendment shall survive the Second Amendment’s expiration.\r\n2. 1 BASIC TERMS. Section 1, of the Agreement is amended as follows:\r\na. Section 1(a)(viii) is removed in its entirety and replaced with:\r\n“(viii) Pricing and Terms for Tetra 325 ml Dreamcaps ........................ Schedule C”\r\nb. A new section, Section 1(a)(xi), is inserted to read\r\n“(xi) Pricing and Terms for Aseptic Plastic Bottles ........................... Schedule C-1”\r\n3. PRODUCTION OF PRODUCT.\r\na. Section 2(a) of the Agreement is amended so that the first sentence that previously read:\r\n“Heritage shall produce the products described on Schedule A attached hereto, as may be amended by the Parties hereafter from time\r\nto time (the “Products”), for Premier at [***] Heritage’s or Heritage’s wholly owned subsidiary, Jasper’s facilities (the “Facilities”). [***]”\r\nSource: BELLRING BRANDS, INC., S-1, 9/20/2019\r\n"
+    }, {
+      "number" : 2,
+      "text" : "now reads:\r\n“Heritage shall produce the products described on Schedule A and Schedule A-1 attached hereto, as may be amended by the Parties\r\nhereafter from time to time (the “Products,” each individual unit of Product “Unit”), for Premier at [***] Heritage’s or Heritage’s wholly\r\nowned subsidiary, Jasper’s facilities (the “Facilities”). [***], except that, notwithstanding anything herein to the contrary, [***].”\r\nb. Section 2(c) of the Agreement is amended so that the term “Units” as defined therein is now referred to as “Tetra Units”.\r\nc. Section 2(d) of the Agreement is amended so that whereas it previously read:\r\n“During the Term, Premier shall have the right (but not the obligation) to order from Heritage quantities of Products in excess of [***]\r\nand provided Heritage has the capacity and the ability to produce such additional quantities of Products, Heritage agrees to produce such\r\nadditional quantities per the pricing and terms on Schedule C.”\r\nit now reads:\r\n“During the Term, Premier shall have the right (but not the obligation) to order from Heritage quantities of Products in in excess of\r\n[***] and provided Heritage has the capacity and the ability to produce such additional quantities of Products, Heritage agrees to produce\r\nsuch additional quantities per the pricing and terms on Schedule C.”\r\nd. Section 2(e) of the Agreement is amended so that whereas it previously read:\r\n[***]\r\nit now reads:\r\n[***]\r\ne. Section 2(f) of the Agreement is amended so that whereas it previously read:\r\n[***]\r\nit now reads:\r\n[***]\r\nf. Section 2(m) of the Agreement is amended so that the term “Units” appearing in the second complete sentence is replaced with the term\r\n“Tetra Units”.\r\ng. Section 2(n) of the Agreement is amended so that the last sentence that previously read:\r\n“The final production quantity by Heritage and Jasper will count towards the MAOV requirements”\r\n2\r\nSource: BELLRING BRANDS, INC., S-1, 9/20/2019\r\n"
+    }, {
+      "number" : 3,
+      "text" : "now reads:\r\n“The final production quantity of Tetra Units by Heritage and Jasper will count toward the MAOV requirements for Tetra Units.”\r\nh. Section 2(o)(i) of the Agreement is amended so that the first sentence that previously read:\r\n“All Products manufactured, packaged and delivered to Heritage or Jasper under the terms of this Agreement shall conform to the\r\nspecifications supplied to Heritage by Premier as listed on Schedule A, which Schedule may from time to time be modified by Premier in\r\nwriting (the “Specifications”), shall conform to Post Holding’s Quality Expectations Manual attached hereto as Schedule E, and shall\r\nconform in all material respects to samples previously supplied to Premier by Heritage.”\r\nnow reads:\r\n“All Products manufactured, packaged and delivered by Heritage or Jasper under the terms of this Agreement shall conform to the\r\nspecifications supplied to Heritage by Premier as listed on Schedule A and/or Schedule A-1, which Schedules may from time to time be\r\nmodified by Premier in writing (the “Specifications”), shall conform to Post Holding’s Quality Expectations Manual attached hereto as\r\nSchedule E, and shall conform in all material respects to samples previously supplied to Premier by Heritage.”\r\n4. Section 3 DELIVER, PRICING, BILLING AND PAYMENT\r\na. Section 3(b) of the Agreement is amended so that whereas it previously read:\r\n“Heritage shall purchase all ingredients and packaging materials identified in Schedule C to be used in connection with the\r\nmanufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on Schedule C.”\r\nnow reads:\r\n“Heritage shall purchase all ingredients and packaging materials identified in the relevant Schedule C or Schedule C-l to be used in\r\nconnection with the manufacturer of the Products. Heritage shall invoice Premier through the [***] billing as identified on the relevant\r\nSchedule C or Schedule C-l. Heritage shall not, however, purchase ingredients or packaging materials in excess of those required [***].”\r\nb. Section 3(c) of the Agreement is amended so that whereas it previously read:\r\n“Heritage shall charge Premier [***] as set forth in Schedule C.”\r\nit now reads:\r\n“Heritage shall charge Premier [***] as set forth in the relevant Schedule C or Schedule C-1.”\r\n5. Schedule A-l. The following is attached to and incorporated into the Agreement as Schedule A-l:\r\nSchedule A-1 ([***])\r\n[***]\r\n[***]\r\n3\r\nSource: BELLRING BRANDS, INC., S-1, 9/20/2019\r\n"
+    }, {
+      "number" : 4,
+      "text" : "6. Section 13 NOTICES is amended such that whereas Notice to PREMIER was required to:\r\n“VP Operations\r\nPremier Nutrition Corporation\r\n188 Spear Street, Suite 600\r\nSan Francisco, CA 94608\r\nEmail:[***]\r\nWith a Copy to\r\nGeneral Counsel:\r\nEmail [***]”\r\nit is now required to:\r\n“Premier Nutrition Corporation\r\nVP Operations\r\n1222 67th Street, Suite 210\r\nEmeryville, CA 94608\r\nEmail: [***]\r\nWith a Copy to\r\nGeneral Counsel:\r\nEmail [***]”\r\n7. Schedule C-l. The following is attached to and incorporated into the Agreement as Schedule C-l:\r\nSchedule C-1 ([***])\r\n[***]\r\n8. Except as otherwise specified above in this Amendment, all other terms, conditions, and covenants of the Agreement shall remain in full force\r\nand effect.\r\nIN WITNESS WHEREOF, the Parties have caused this Agreement to be executed by a duly authorized officer on the day and year first above\r\nwritten.\r\nPREMIER NUTRITION CORPORATION STREMICKS HERITAGE FOODS, LLC\r\nAnd as and for Jasper Products, LLC\r\nBY: /s/ Darcy Davenport BY: /s/ Sam Stremick\r\nITS: President ITS: President\r\n4\r\nSource: BELLRING BRANDS, INC., S-1, 9/20/2019\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "Stremick's Heritage Foods, LLC and Premier Nutrition Corporation",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "entered into by and between Stremick's Heritage Foods, LLC, ('Heritage'), Premier Nutrition Corporation ('Premier')"
+        },
+        "status" : "FUZZY",
+        "page" : 1,
+        "start" : 154,
+        "end" : 270
+      }, {
+        "claimed" : {
+          "page" : 4,
+          "quote" : "PREMIER NUTRITION CORPORATION STREMICKS HERITAGE FOODS, LLC And as and for Jasper Products, LLC"
+        },
+        "status" : "VERIFIED",
+        "page" : 4,
+        "start" : 867,
+        "end" : 963
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "October 1, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This Second Amendment ('Second Amendment'), entered into by and between Stremick's Heritage Foods, LLC, ('Heritage'), Premier Nutrition Corporation ('Premier') is effective as of October 1, 2018"
+        },
+        "status" : "FUZZY",
+        "page" : 1,
+        "start" : 110,
+        "end" : 305
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "October 1, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "is effective as of October 1, 2018 ('Second Amendment Effective Date')"
+        },
+        "status" : "FUZZY",
+        "page" : 1,
+        "start" : 271,
+        "end" : 341
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : "December 31, 2021",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021."
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 1228,
+        "end" : 1348
+      } ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : null,
+      "evidence" : [ ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 0.6,
+    "recall" : 0.375,
+    "f1" : 0.4615384615384615
+  }, {
+    "id" : "ecoscience-sponsorship",
+    "title" : "EcoScience Solutions — Sponsorship Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "SPONSORSHIP AGREEMENT\r\nThis agreement (the \"Agreement\") is made effective this 1st day of April, 2018 (\"Effective Date\") between Fruit of Life Productions LLC,\r\n(\"Promoter\") and Eco Science Solutions, Inc.,(\"Sponsor\"), 1135 Makawao Avenue, Suite 103-188, Makawao, Hawaii, 96768.\r\nContribution by Sponsor:\r\nIn consideration for the right to sponsor the Kaya Fest and to be acknowledged by Fruit of Life Productions LLC., as a Promoter of the event\r\nduring the term of this Agreement, Sponsor agrees to contract with Fruit of Life Productions LLC., for the amount of $250,000.00 to be paid in full\r\nupon signing of this agreement.\r\nBank Wire Transformation Information\r\nSee Attached Wire Instructions\r\nSponsorship Benefits for Presenting Partner Sponsor:\r\n* Main Stage named after your brand\r\n* 4 10x10 on site vendor booths\r\n* 50 VIP Sponsor Passes / 50 GA tickets for both days\r\n* 4 Parking passes\r\n* Opportunity to participate in after party\r\n* Banner placement in venue (10)\r\n* Approved audio/video assets to be provided as promotional use for Herbo\r\n* Name and phrase called out on stage between performers set\r\n* Your logo and a link from our website to your website\r\n* Your logo on video wall\r\n* Your company name and logo as a presenting sponsor\r\n* Banner at main entrance of venue\r\n* On stage banner placement\r\n* Logo in Backstage/VIP area\r\n* Mention on social media\r\n* Logo on Step and Repeat\r\n* Logo on all promotional print\r\nTerms and Termination:\r\nThe term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm.\r\nRelationship of Parties:\r\nThe parties are independent contractors with respect to one another. Nothing in this Agreement shall create any association, joint venture,\r\npartnership or agency relationship of any kind between the parties.\r\n1\r\nSource: ECO SCIENCE SOLUTIONS, INC., 8-K, 4/6/2018\r\n"
+    }, {
+      "number" : 2,
+      "text" : "Intellectual Property:\r\nFruit of Life Productions LLC is the sole owner of all right, title and interest to all Kaya Fest information including Logo, tag lines, (Education before\r\nRecreation), Trademarks, trade names and copyrighted information. Sponsor agrees that it will not use Kaya Fest property in a manner that states or\r\nimplies that Kaya Fest endorses Sponsor (or Sponsors products or services) without written approval from Fruit of Life Productions LLC.\r\nIdemnification:\r\nSponsor shall indemnify and hold harmless, Fruit of Life Productions LLC, its related entities, partners, agents, officers, directors, employees,\r\nattorneys, heirs, successors, and assigns from against any and all claims, losses, damages, judgments, settlements, costs and expenses (including\r\nreasonable attorney's fees and expenses), and liabilities of every kind incurred as a result of: (i) any act or omission by Sponsor or its officers,\r\ndirectors, entities, employees, agents; (ii) any use of Sponsor's name, logo, Website, or other information, products, or service provided by\r\nSponsor; and/or (iii) the inaccuracy or breach of any of the covenants, representations and warranties made by Sponsor in this Agreement. (iv) any\r\nchanges in company value or brand value. The attendance and marketing reach estimates made in negotiations were made for the purposes of this\r\nagreement are mere estimate and not be interpreted as guaranties.\r\n.\r\nConfidentiality\r\nConfidential Information is all information that is marked such and all other information which a reasonable person would consider to be\r\nconfidential. Confidential Information shall include, but is not limited to, information regarding the organization, its operations, programs, activities,\r\nfinancial condition, strategies, timelines, corporate/programming roadmap, surprise performers/guest appearances, event access information and\r\nmembership or customer list. During the Term, each party shall use and reproduce the other party's Confidential Information only for purposes of\r\nthis Agreement with written authorization by disclosing party, and only to the extent necessary for such purpose. Each party shall restrict\r\ndisclosure of the other party's Confidential Information to its employees and agents with a reasonable need to know such Confidential Information,\r\nand shall not disclose the other party's Confidential Information to any third party without the prior written consent of the other party.\r\nCancellation:\r\nKaya Fest shall not be liable to any Sponsor for losses arising out of, or the inability to perform its obligations under the terms of this sponsorship\r\nproposal due to acts of God, which include, that are not limited to, fire, flood, tornados, hurricanes, severe increments weather, strikes, medical\r\nfailure, or any other acts beyond the control of Kaya Fest.\r\nExhibiting:\r\nSponsors are bound by the same terms and conditions, if exhibiting, as all other vendors of event.\r\nSponsors must have their own liability insurance with limits of one million dollars.\r\nBanners: Sponsors are responsible for creating their own banners. Banners placement will be determined by the Promoter. Sponsors are\r\nresponsible for the hanging of their banners and removal after the event. Banners must be responsibility secured and not have any dangerous\r\nedges/sticks that may not cause harm if used inappropriately.\r\nGeneral Provisions:\r\nWarranties: Each party covenants, warrants and represents that it shall comply with all laws and regulations applicable to this Agreement\r\nperformance of its obligations, and that it shall exercise due care and act in good faith at all times in the performance of its obligations hereunder.\r\nThe provisions of this section shall survive termination of this Agreement. This agreement is not an attempt to give legal advice or constraints as it\r\nrelates to Florida law and Cannabis/Marijuana law in any jurisdiction. The Sponsor understands that they are free to seek legal advice on the\r\ncontent of this agreement and applicable law from independent counsel.\r\nBinding effect: This Agreement shall bind the parties, their respective heirs, personal representatives, successors and assigns.\r\n2\r\nSource: ECO SCIENCE SOLUTIONS, INC., 8-K, 4/6/2018\r\n"
+    }, {
+      "number" : 3,
+      "text" : "Governing Law: This Agreement shall be governed by and interpreted in accordance with the laws of the State of Florida, without regard to its\r\nconflict-of-laws or choice-of law principles. In case of a dispute, the parties agree to pursue Arbitration as the preferred method to seek a remedy\r\nand the parties waive the right to a jury trial.\r\nAssignment: This Agreement, or the rights granted under it, may not be assigned transferred or sublicense by either party without the express\r\nprior written consent of the other party.\r\nEntire Agreement: This Agreement and its attachments constitute the entire agreement between the parties and supersede all prior agreements,\r\noral or written, relating to the Sponsorship. This Agreement may only be admitted in a writing signed by both parties. The agreement is\r\nconfidential, and the parties agree not to file or record in public records.\r\nNotice: All notices given under this Agreement shall be in writing, addressed to the parties at the addresses set forth below, and shall be deemed to\r\nhave the duly given when delivered when sent by overnight courier, or certified mail (return receipt requested).\r\nFruit of Life Productions LLC (Promoter)\r\nAddress:\r\n16115 SW 117t h Ave.\r\nSuite 21-A\r\nMiami, Florida 33177\r\nEcoScience Solutions, Inc. (Sponsor)\r\nAddress:\r\n1135 Makawao Avenue, Suite 103-188\r\nMakawao, Hawaii 96768\r\nThe Sponsor agrees that upon acceptance, this agreement shall be deemed to form and binding contract between the Sponsor and Promoter. The\r\nSponsor agrees to abide by the terms set forth in the Terms and Conditions of Sponsorship agreement.\r\nAll parties have executed this Agreement through their duly authorized representatives as of the first date written below.\r\nSponsor: Eco Science Solutions, Inc.\r\nBy: /s/Jeffery Taylor\r\nName: Jeffery Taylor\r\nTitle: CEO\r\nDate: 4/01/2018\r\nPromoter: Fruit of Life Productions LLC:\r\nBy:/s/Stella McLaughlan\r\nName: Stella McLaughlan\r\nTitle: Event Coordinator\r\nDate: 4/01/2018\r\n3\r\nSource: ECO SCIENCE SOLUTIONS, INC., 8-K, 4/6/2018\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "Fruit of Life Productions LLC and Eco Science Solutions, Inc.",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "between Fruit of Life Productions LLC, ("
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 121,
+        "end" : 162
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "April 1, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This agreement (the "
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 23,
+        "end" : 42
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "April 1, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This agreement (the "
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 23,
+        "end" : 42
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : "April 30, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "The term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm."
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 1459,
+        "end" : 1559
+      } ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Florida",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "This Agreement shall be governed by and interpreted in accordance with the laws of the State of Florida"
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 15,
+        "end" : 118
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 0.6,
+    "recall" : 0.375,
+    "f1" : 0.4615384615384615
+  }, {
+    "id" : "intelligent-highway-alliance",
+    "title" : "Intelligent Highway Solutions — Strategic Alliance Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : " \r\nStrategic Alliance Agreement\r\n \r\nThis agreement is made and entered into this 10th day of January, 2018 by and between Bravatek Solutions, Inc., a corporation organized under the\r\nlaws of the State of Colorado, (“Bravatek”), with an address at 2028 E. Ben White Blvd., Unit #240-2835, Austin, Texas 78741 and Fazync LLC, a\r\nlimited liability company organized under the laws of the State of Colorado with an address at 2376 Gold River Drive, Rancho Cordova, CA 95670\r\n(“Fazync”). Fazync is a wholly owned subsidiary of publicly traded company Intelligent Highway Solutions, Inc., (“IHSI”), a Nevada corporation.\r\n \r\nWhereas, Bravatek is a corporation, which has technical expertise in security-related software, tools and systems/services (including telecom\r\nservices) to support, deploy and test its current and potential customers’ most critical initiatives.\r\n \r\nWhereas, Fazync is a company engaged in the business of providing energy-saving solutions and capabilities to the Critical Infrastructure/Key\r\nResources arena.\r\n \r\nWhereas, the parties desire to enter into a business relationship which will designate Bravatek as the project based business partnership channel\r\nfor governmental and non-governmental departments / agencies / units for the purpose of promoting Fazync relevant capabilities, products and/or\r\nservice solutions. Now therefore, the parties mutually agree to enter into a strategic alliance under the following terms and conditions:\r\n \r\n1) Duties of Bravatek\r\n \r\nBravatek agrees to serve as a non-exclusive project sales lead finder for Fazync. In this capacity, Bravatek will use its best efforts to provide\r\nthe following services to Fazync\r\n \r\n a. Promote, market and introduce the Products to prospective clients in the government space nationwide.\r\n   \r\n b. Provide a quarterly Pipeline or project information leads report to Fazync a monthly basis which contains a 3-month rolling forecast of\r\npotential sales.\r\n   \r\n c. Follow-up on on-going project leads that Fazync actively engaged with or believes is appropriate.\r\n   \r\n d. Provide Fazync with any promotional materials, technical papers, white papers, proposals, etc. prior to publication or delivery to\r\nprospective clients.\r\n \r\n \r\n"
+    }, {
+      "number" : 2,
+      "text" : " \r\n \r\n2) Duties of Fazync\r\n \r\nFazync agrees to use its best efforts to promote and support project lead finding and after-sales support of Bravatek by:\r\n \r\n a. Listing Bravatek in all appropriate sales and marketing materials as a non-exclusive alliance partner (with focus of government\r\ncustomers)\r\n   \r\n b. Provide timely responses to both technical and administrative questions posed by Bravatek.\r\n   \r\n c. Promote Bravatek’s product and service offerings whenever possible.\r\n   \r\n d. Aid Bravatek in the writing of any technical/marketing/sales documents when requested and participate in mutually-agreed upon\r\nsales calls.\r\n   \r\n e. Provide Bravatek with co-branded marketing material that can be emailed or handed to prospective clients.\r\n \r\n3) Obligations of the Parties\r\n \r\nBravatek and Fazync agree to jointly:\r\n \r\n a. Develop and implement a joint Product Solution and Application Strategy whereby targeted markets/potential client-\r\ntypes/applications are mutually agreed upon;\r\n   \r\n b. Support each other in all agreed-upon technical, marketing and promotional efforts;\r\n   \r\n c. Develop a joint strategy for developing new product/services/capabilities to mutually benefit both parties;\r\n   \r\n d. Utilize each other as Preferred Vendors for services whenever possible upon mutual agreement.\r\n \r\n4) Compensation\r\n \r\nWhen custom Products are designed, developed and to be delivered to Bravatek-identified perspective clients, the parties shall agree to a\r\nproposed sales price for use during the project in writing prior to the commencement of each project.\r\n \r\n \r\n"
+    }, {
+      "number" : 3,
+      "text" : " \r\n \r\nFor any Product or Solution sold to any perspective clients introduced by Bravatek registered with Fazync via email to IHSI’s CEO, Devon\r\nJones, and delivered through Bravatek or a Fazync -designated distribution affiliate(s) or sales channel(s), Bravatek will receive a lead-finder\r\nfee, to be mutually discussed and finally decided by Fazync at the range of minimum of 10% to maximum of 20% of project revenue, with an\r\nexact fee to be depending upon the overall project sales margin and cost of development and delivery of each project, payable NET 30 days\r\nafter each client payment on delivered products received at Fazync bank account.\r\n \r\n5) Confidentiality\r\n \r\n“Confidential information” shall mean any and all technical and non-technical information, documents and materials related to client projects of\r\nparty and products, services and business of each of the parties. Fazync and Bravatek agree to maintain in strict confidence and not to\r\ndisclose or disseminate, or to use for any purposes other than performance of the projects, the Confidential Information disclosed.\r\n \r\nThe obligation of non-disclosure shall not apply to the following:\r\n \r\n a. Information at or after such time that is publicly available through no fault of either party\r\n   \r\n b. Information at or after such time that is disclosed to either party by a third party entitled to disclose such information\r\n   \r\n c. Information which is required by law to be disclosed to federal, state or local authorities.\r\n \r\n6) Term of Confidentiality\r\n \r\nFor a period of five (5) years after termination of this Agreement, the parties shall treat as confidential all information and take every reasonable\r\nprecaution and use all reasonable efforts to prevent the unauthorized disclosure of the same. The parties agree to take all steps reasonably\r\nnecessary and appropriate to ensure that their employees, agents, and/or assistants treat all information as confidential and to ensure that\r\nsuch employees, agents, and/or assistants are familiar with and abide by the terms of this Agreement.\r\n \r\n7) Term\r\n \r\nThe term of this Agreement is twelve (12) months from the date hereof, and will be automatically renewed for one (1) additional twelve month\r\nperiod unless either party shall notify the other in writing of its intention not to renew. Such notice must be given ninety (90) days prior to\r\nexpiration of the original term. This Agreement may also be terminated by either party upon ninety (90) days written notice.\r\n \r\n \r\n"
+    }, {
+      "number" : 4,
+      "text" : " \r\n \r\n8) Notices\r\n \r\nAny notices required under this Agreement shall be delivered to:\r\n \r\nBravatek Technologies, Inc.\r\n2028 E. Ben White Blvd.\r\nUnit #240-2835\r\nAustin, Texas 78741\r\n \r\nFazync, Inc.\r\n2376 Gold River dr.\r\nRanch Cordova, CA 95670\r\n \r\n9) Governing Law\r\n \r\nThis Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas.\r\n \r\n10) Indemnification\r\n \r\nFazync shall indemnify Bravatek, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including\r\nreasonable attorney’s fees and court costs incurred in connection with any third-party claim, action or proceeding arising from the negligence\r\nor intentional misconduct of Fazync or breach of Fazync of any of its obligations under this Agreement.\r\n \r\nBravatek shall indemnify Fazync, its directors, officers and employees, for any and all damages, costs, expenses, and other liabilities, including\r\nreasonable attorney’s fees and court costs, incurred in connection with any third-party claim, action or proceeding arising from the negligence\r\nor intentional misconduct of Bravatek or breach of Bravatek of any of its obligations under this Agreement.\r\n \r\n11) Modifications\r\n \r\nNo changes or modifications of this Agreement or any of its terms shall be deemed effective unless in writing and executed by the parties\r\nhereto.\r\n \r\n12) Assignment\r\n \r\nThis Agreement shall not be assignable by either party without the prior written consent of the other party.\r\n \r\n13) Entire Agreement\r\n \r\nThis Agreement represents the complete and entire understanding between the parties regarding the subject matter hereof and supersedes all\r\nprior negotiations, representations, or agreements, either written or oral, regarding this subject matter.\r\n \r\n \r\n"
+    }, {
+      "number" : 5,
+      "text" : " \r\n \r\nThis Agreement shall not be considered accepted, approved or otherwise effective until signed by the appropriate parties.\r\n \r\nBravatek Technologies, Inc. Fazync LLC\r\n     \r\nBy:   By:  \r\n     \r\nName: Thomas A. Cellucci  Name: Devon Jones\r\n     \r\nTitle: CEO  Title: Manager\r\n     \r\nDate: January 10, 2018  Date: January 10, 2018\r\n \r\n \r\n"
+    }, {
+      "number" : 6,
+      "text" : " \r\n \r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "Bravatek Solutions, Inc. and Fazync LLC",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "by and between Bravatek Solutions, Inc., a corporation organized under the laws of the State of Colorado, ("
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 107,
+        "end" : 215
+      }, {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "Fazync LLC, a limited liability company organized under the laws of the State of Colorado"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 312,
+        "end" : 402
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "January 10, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This agreement is made and entered into this 10th day of January, 2018"
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 36,
+        "end" : 106
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "January 10, 2018",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "The term of this Agreement is twelve (12) months from the date hereof"
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 2087,
+        "end" : 2156
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : "January 10, 2019",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "The term of this Agreement is twelve (12) months from the date hereof"
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 2087,
+        "end" : 2156
+      } ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Texas",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 4,
+          "quote" : "This Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas."
+        },
+        "status" : "VERIFIED",
+        "page" : 4,
+        "start" : 268,
+        "end" : 390
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : "twelve months",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "will be automatically renewed for one (1) additional twelve month period"
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 2162,
+        "end" : 2235
+      } ]
+    } ],
+    "precision" : 0.7142857142857143,
+    "recall" : 0.875,
+    "f1" : 0.7865168539325842
+  }, {
+    "id" : "dragon-outsourcing",
+    "title" : "Dragon Systems — Outsourcing Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "   1\r\n                                                                   Exhibit 10.17\r\n          Confidential Materials omitted and filed separately with the\r\n        Securities and Exchange Commission. Asterisks denote omissions.\r\n                              OUTSOURCING AGREEMENT\r\n                                    BETWEEN:\r\n                            MODUS MEDIA INTERNATIONAL\r\n                                LANDDROSTLAAN 51\r\n                                7327 GM APELDOORN\r\n                                 THE NETHERLANDS\r\n                               (HEREINAFTER \"MMI\")\r\n                                       AND\r\n                              DRAGON SYSTEMS, INC.\r\n                                320 NEVADA STREET\r\n                                NEWTON, MA 02160\r\n                                     U.S.A.\r\n                          (HEREAFTER \"DRAGON SYSTEMS\")\r\n                        EFFECTIVE AS OF (EFFECTIVE DATE)\r\n1.       PURPOSE OF AGREEMENT\r\nFormalize the agreements made regarding services and products between Dragon\r\nSystems and MMI.\r\n2.       SERVICES\r\nMMI will produce products for Dragon Systems on a Turnkey basis. Initially,\r\nservices will cover 3 products, as per the attached price sheets. However, this\r\nmay be extended.\r\nSpecific services will be:\r\n- -        Receipt and Management of master materials\r\n- -        Supply base management\r\n- -        Production (both components & finished goods)\r\n- -        Delivery\r\n- -        Inventory Management\r\n- -        Financial Services\r\nQuality and Services Level Agreements will be based on mutual agreement.\r\n3.       DELIVERY\r\nMMI shall deliver the Services in line with the agreed service levels to Dragon\r\nSystems.\r\n                                       \r\n   2\r\n          Confidential Materials omitted and filed separately with the\r\n        Securities and Exchange Commission. Asterisks denote omissions.\r\n4.       ACCEPTANCE OF SERVICES\r\nDragon Systems may reject the Services if they do not comply with the\r\nspecification set out by Dragon \\s\\ JB. The Services are deemed to be accepted\r\nif MMI does not receive a notification within 60 days after delivery to Dragon\r\nSystems or its customers.\r\n5.       PAYMENT AND PRICING\r\nDragon Systems will compensate MMI for all Services rendered in accordance with\r\nthe rates specified in the Annex \"Prices.\" Unless otherwise agreed, prices shall\r\nexclude transport, insurance, VAT and Import duties (outside EC countries) to\r\nDragon Systems' designated delivery address.\r\nFor all materials in stock, older than 90 days, MMI will charge Dragon Systems\r\nwith an Inventory Carriage Charge of [**] of its value per month.\r\nMMI will invoice Dragon Systems based on actual shipments that have been\r\nperformed.\r\nPayments will be due in US dollars within 30 days after delivery, or when agreed\r\nafter delivery of installments or the receipt of invoice by Dragon Systems,\r\nwhich ever is later. MMI shall invoice Dragon Systems indicating the performed\r\nservices in US$ with reference to this Agreement.\r\nDragon Systems shall be entitled to deduct from or set off against any sums\r\nwhich Dragon Systems may be liable to pay to MMI any amounts owed by MMI, its\r\naffiliated entities, subsidiaries or successors in interest.\r\n6.       WARRANTY\r\nMMI warrants providing the Services with due diligence and care in accordance\r\n"
+    }, {
+      "number" : 2,
+      "text" : "with the specifications set by Dragon Systems. Should MMI not supply the\r\nServices as agreed or should the Services become defective within 6 months from\r\ntheir delivery to Dragon Systems, Dragon Systems may at its option require MMI\r\nto complete or re-perform the Services within a reasonable period of time,\r\nrescind the contract or refuse payment of the compensation in part or in total,\r\nnotwithstanding any damage claims.\r\n7.       INDEMNITY\r\nMMI shall reimburse Dragon Systems and hold Dragon Systems harmless from any\r\nliabilities or obligations imposed upon Dragon Systems resulting directly or\r\nindirectly from MMI's or its employees or agents activities under this\r\nAgreement.\r\n                                       -2-\r\n   3\r\n8.       LIABILITY\r\nEither party shall be liable for failure or delay in performance of its duties\r\nunder this Agreement except for reasons beyond such party's reasonable control.\r\nMMI shall not be liable for indirect or consequential damages unless caused by\r\nintention or gross negligence.\r\n9.       CONFIDENTIALITY\r\nBoth parties shall take reasonable precautions to preserve in strict confidence\r\nany confidential or proprietary information obtained by them, their agents or\r\nemployees concerning the business, products, equipment or services of the other\r\nparty, including without limitation, trade secrets. Such reasonable precautions\r\nshall include exercising precautionary measures designed to preserve the secrecy\r\nof such information and to prevent its disclosure to third parties, except\r\nfollowing prior consent of the other party, with such precautions being at least\r\nequivalent to those taken by each party with respect to its own confidential\r\ninformation.\r\n10.      PATENTS AND COPYRIGHT\r\nMMI warrants that the Services supplied to Dragon Systems will not infringe any\r\nthird parties' intellectual property rights. MMI will defend and indemnity\r\nDragon Systems against a claim that the Services supplied hereunder infringe a\r\npatent or copyright and will pay resulting costs and damages provided that\r\nDragon Systems (i) promptly informs MMI in writing of the claim and (ii) gives\r\nMMI sole control of the defense and all related settlement negotiations. MMI\r\nwill either procure the right for Dragon Systems to continue using the Services\r\nor replace or modify them so that they become non-infringing or accept return of\r\nthe Services for a credit equal to the price paid by Dragon Systems.\r\n11.      COPYRIGHT AND COPYRIGHT LICENSE\r\nDragon Systems hereby grants MMI the rights to copy in printed or electronic\r\nform the master materials according to the forecasted numbers given to MMI by\r\nDragon Systems.\r\n12.      TERM AND TERMINATION\r\nThis Agreement shall be valid for an indefinite period.\r\nBoth parties may terminate the Agreement with immediate effect\r\n- -        of either party breaches a material term of the Agreement\r\n- -        in case of a merger or change of key management or control\r\n- -        in case of bankruptcy or similar.\r\nDragon may terminate this agreement without cause by giving sixty (60) days\r\nwritten notice to MMI.\r\n                                       -3-\r\n   4\r\n13.      GOVERNING LAW\r\nAny lawsuit relating to any matter arising under this Agreement may be initiated\r\nin a State or Federal Court located in the Commonwealth of Massachusetts or in\r\nany court in the Netherlands having jurisdiction over the matter.\r\n14.      INSURANCE\r\nMMI shall at its own expense obtain and maintain with an insurer adequate\r\ninsurance coverage in respect of any Dragon Systems property under the care,\r\ncustody or control of MMI. MMI shall immediately notify Dragon Systems in\r\nwriting of any theft, loss or damage to any Dragon Systems property and shall\r\nindemnify Dragon Systems in respect of the same.\r\nMMI\r\n\\s\\ John Dick                          General Manager\r\n- -------------------------------------------------------\r\n          19 Jan. 1998\r\nDRAGON SYSTEMS, INC.\r\n"
+    }, {
+      "number" : 3,
+      "text" : "\\s\\ Janet M. Baker,                         President\r\n- -----------------------------------------------------\r\n          12 Jan. 1998\r\n                                       -4-\r\n   5\r\n                                NaturallySpeaking\r\n     Part Number              Description     1,000 units    2,500 units   5,000 units   10,000 units   25,000 units  50,000 units\r\n- ----------------------   -------------------  -------------  ------------  ------------  -------------  ------------  -------------\r\n                                                                                                 \r\n                                [**]\r\n                                               -5-\r\n   6\r\n                         Dictate Power\r\n     Part Number              Description     1,000 units    2,500 units   5,000 units   10,000 units   25,000 units  50,000 units\r\n- ----------------------   -------------------  -------------  ------------  ------------  -------------  ------------  -------------\r\n                                                                                                 \r\n                                                [**]\r\n                                                 -6-\r\n   7\r\n                          Dictate Classic\r\n     Part Number              Description     1,000 units    2,500 units   5,000 units   10,000 units   25,000 units  50,000 units\r\n- ----------------------   -------------------  -------------  ------------  ------------  -------------  ------------  -------------\r\n                                                                                                 \r\n                                                [**]\r\n                                                 -7-\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "MODUS MEDIA INTERNATIONAL and DRAGON SYSTEMS, INC.",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "MODUS MEDIA INTERNATIONAL ... (HEREINAFTER \"MMI\") AND DRAGON SYSTEMS, INC. ... (HEREAFTER \"DRAGON SYSTEMS\")"
+        },
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "19 Jan. 1998",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "MMI \\s\\ John Dick ... 19 Jan. 1998"
+        },
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "19 Jan. 1998",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "MMI \\s\\ John Dick ... 19 Jan. 1998"
+        },
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : null,
+      "evidence" : [ ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "Commonwealth of Massachusetts or the Netherlands",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 2,
+          "quote" : "Any lawsuit relating to any matter arising under this Agreement may be initiated in a State or Federal Court located in the Commonwealth of Massachusetts or in any court in the Netherlands having jurisdiction over the matter."
+        },
+        "status" : "VERIFIED",
+        "page" : 2,
+        "start" : 3177,
+        "end" : 3404
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 1.0,
+    "recall" : 0.125,
+    "f1" : 0.2222222222222222
+  }, {
+    "id" : "lifeway-endorsement",
+    "title" : "Lifeway Foods — Endorsement Agreement",
+    "pages" : [ {
+      "number" : 1,
+      "text" : "EXHIBIT 10.24\r\nENDORSEMENT AGREEMENT\r\nThis Endorsement Agreement (\"Agreement\") is made this 14th day of March, 2016\r\n(\"Effective Date\"), by and between Lifeway Foods, Inc. (\"Lifeway\") with a principal\r\nbusiness address of 6431 West Oakton Street, Morton Grove, IL 60053 and Ludmila\r\nSmolyansky(\"Individual\") on her own behalf with an address of 182 N. Harbor Drive,\r\nChicago, IL 60602. Lifeway and Individual are collectively referred to as the\r\n\"parties,\" or individually as a \"party.\"\r\nThe terms of the Agreement are as follows:\r\n1. License - Individual grants Lifeway together with its affiliates, subsidiaries,\r\nparent companies and their representatives and employees have an unlimited, perpetual,\r\nnon-exclusive, worldwide and, except as set forth in Section 9, royalty-free, right to\r\nuse, reuse, publish, reproduce, perform, copy, create derivative works, exhibit,\r\nbroadcast, and display throughout the world the name, image and likeness of Individual\r\nin Marketing Materials (as defined below) in connection with marketing, advertising or\r\notherwise promoting the Lifeway products and/or services and for historical reference\r\nand display purposes and other internal purposes, including without limitation,\r\ninternal sales meetings. Notwithstanding anything herein to the contrary, Lifeway\r\nshall be under no obligation to cause the Marketing Materials to be displayed,\r\npublished or performed. Individual further waives the right to inspect or approve the\r\nMarketing Materials.\r\n2. Marketing Materials - Marketing Materials shall mean those marketing, sales,\r\nadvertising, publicity and promotional materials produced by Lifeway or produced on\r\nLifeway's behalf that contain Individual's biographical materials, name, nickname,\r\nlikeness, voice, photograph, signature or facsimile thereof, reviews, endorsements,\r\ntestimonials, demonstrations, depictions of the same, or other identifying personal\r\ncharacteristics made in any and all forms of media, that reflect the personal opinions\r\nand views of the Individual in connection with Lifeway products and/or services in\r\nwhatever medium whether now known or hereafter created including, without limitation,\r\nwebsites, intranets, social media, radio and television commercials, video and audio\r\ntapes, digitally formatted computer media including but not limited to internet and\r\nCD-ROMs, product labels, product packaging, point-of-purchase materials, trade, direct\r\nmail, magazines, newspapers, coupons, free standing inserts, and posters.\r\n3. Release - Individual hereby releases and discharges Lifeway from any and all\r\nclaims, demands, or causes of action in law or equity that he or she may have or may\r\nhereafter acquire, including without limitation in connection with any prior use,\r\nreuse, publication, reproduction, performance, copy, creation of derivative works,\r\nexhibition, broadcast, and display of the name, image and likeness of Individual and\r\nany and all claims for libel, slander, invasion of privacy, copyright or trademark\r\nviolation, right of publicity, or false light, that may arise out of or in connection\r\nwith the use of the Marketing Materials in accordance with this Agreement.\r\n4. Right to Edit - Lifeway may modify and vary the Marketing Materials produced\r\nhereunder, as it may elect, and to make additional versions of such Marketing\r\nMaterials in any manner without approval from Individual; provided that Individual\r\nshall not be required to render any services in connection with the production of such\r\nmodifications or variations. Moreover, Individual understands and agrees that Lifeway\r\nmay use the Marketing Materials with or without her name.\r\nSource: LIFEWAY FOODS, INC., 10-K, 3/16/2016\r\n"
+    }, {
+      "number" : 2,
+      "text" : "5. Ownership - Individual agrees that she does not have, and shall not claim to have,\r\neither under this Agreement or otherwise, any right, title or interest of any kind or\r\nnature in and to the ideas, likenesses, images, announcements, phrases, titles, music\r\nor words used in the Marketing Materials, and that all rights therein, including the\r\ncopyright, are recognized to be owned by Lifeway.\r\n6. Non-Competing Services - Individual agrees that, during the Term hereof, she will\r\nnot render similar services for, or permit the use of her name, nickname, likeness,\r\nvoice, live or recorded performance, photograph, signature or facsimile thereof, and\r\nbiographical materials in advertising or publicizing in any medium for any other Kefir\r\nproduct, yogurt product, cheese, frozen desserts and other products that compete with\r\nproducts manufactured or distributed by Lifeway and its affiliates, subsidiaries and\r\nparent companies other than those products manufactured or distributed by Lifeway and\r\nits affiliates, subsidiaries, and parent companies.\r\n7. Representation - Individual represents and warrants that any testimonial or review\r\nprovided reflects her own honest opinions, findings, beliefs, or experiences.\r\nIndividual represents that she is a bona fide user of Lifeway products and/or\r\nservices.\r\n8. Indemnification - Individual agrees to indemnify, defend and hold harmless Lifeway\r\nfrom and against any and all claims, actions, causes or other expenses incurred\r\narising from any misrepresentations or false statements made by the Individual in the\r\nMarketing Materials.\r\n9. Compensation\r\n(a) In consideration of the rights granted by Individual hereunder, Lifeway agrees\r\nto pay Individual a royalty (the \"Royalty\") equal to $0.02 for each Lifeway product or\r\nindividual item sold by Lifeway during each calendar month of the Term bearing\r\nIndividual's first name, last name or other identifying personal characteristics;\r\nprovided, however, the Royalty will cease being paid upon the death of Individual.\r\nNotwithstanding anything to the contrary herein, the Royalty will not exceed $50,000\r\nin any month. All undisputed Royalty payments shall be made in U.S. dollars in cash or\r\nto the order of Individual and shall be due and payable within thirty (30) days after\r\nthe end of each calendar month for sales during the previous month.\r\n(b) All amounts due under this Agreement are net of any applicable taxes, duties,\r\nfees or governmental charges, including without limitation, transfer tax, sales tax,\r\nuse tax, consumption tax, value-added tax, excise tax, import tax, export tax, and\r\ncustom duties (collectively \"Taxes\"). Accordingly, Lifeway will be solely responsible\r\nfor the payment of all Taxes, together with any related liabilities (including\r\ninterest and penalties), imposed upon it by law or any governmental authority for\r\nwhich Lifeway is primarily liable.\r\n(c) The Royalty due hereunder shall be paid to Individual at the address set forth\r\nabove.\r\n10. Confidentiality - With respect to this Agreement and any information supplied in\r\nconnection with this Agreement and designated by the disclosing party as confidential,\r\nthe recipient agrees to: (i) protect the confidential information in a reasonable and\r\nappropriate manner; (ii) use confidential information only to perform its obligations\r\nunder this Agreement; and (iii) reproduce confidential information only as required to\r\nperform its obligations under this Agreement. This section shall not apply to\r\ninformation that is: (i) publicly known; (ii) already known to the recipient; (iii)\r\ndisclosed to a third party without restriction; (iv) independently developed; or (v)\r\ndisclosed pursuant to legal requirement or order.\r\nSource: LIFEWAY FOODS, INC., 10-K, 3/16/2016\r\n"
+    }, {
+      "number" : 3,
+      "text" : "11. Mutual Representations, Warranties and Covenants - Each party (the \"Warranting\r\nParty\"), to induce the other party to enter into this Agreement, represents, warrants\r\nand covenants that:\r\n(a) the Warranting Party has the full right and authority, and possesses all licenses,\r\npermits, authorizations and rights to intellectual property required to enter into\r\nthis Agreement and to perform the acts required of it hereunder;\r\n(b) the performance by the Warranting Party pursuant to this Agreement and/or the\r\nrights in this Agreement granted to the other party will not conflict with or result\r\nin a breach or violation of any of the terms or provisions, or constitute a default\r\nunder any agreement by which the Warranting Party is bound; and\r\n(c) with respect to the performance of its obligations hereunder, the Warranting Party\r\nwill comply with all applicable laws, rules and regulation.\r\n12. Assignment - Neither party will assign any of its rights or obligations under this\r\nAgreement without the prior written consent of the other party, such consent not to be\r\nunreasonably, conditioned, withheld or delayed.\r\n13. Notice - Notices to the parties shall be sent via overnight mail or U.S. Certified\r\nMail or overnight express or priority mail to the addresses listed in the Agreement.\r\nEither party may change its address upon written notice to the other party. Written\r\nnotices for approvals under this agreement may be via email.\r\n14. [Intentionally Omitted.]\r\n15. Choice of Law and Forum - This Agreement will be construed and governed in\r\naccordance with the laws of the State of Illinois, without regard to conflict of laws\r\nprinciples.\r\n16. Survival - Unless and to the extent otherwise specified herein, all terms of this\r\nAgreement which by their nature extend beyond its termination, remain in effect until\r\nfulfilled, and apply to respective successors and assigns.\r\n17. Force Majeure - If performance hereunder is prevented, restricted or interfered\r\nwith by any act or condition whatsoever beyond the reasonable control of a party, the\r\nparty so affected, upon giving prompt notice to the other party, will be excused from\r\nsuch performance to the extent of such prevention, restriction or interference.\r\n18. Waiver - The waiver by either party of a breach or a default of any provision of\r\nthis Agreement by the other party will not be construed as a waiver of any succeeding\r\nbreach of the same or any other provision.\r\nSource: LIFEWAY FOODS, INC., 10-K, 3/16/2016\r\n"
+    }, {
+      "number" : 4,
+      "text" : "19. Counterparts and Facsimile Signatures - This Agreement may be executed in multiple\r\ncounterparts and via facsimile, each of which will be deemed to be an original, but\r\nall of which together constitute one and the same instrument.\r\n20. Entire Agreement and Amendment - This Agreement, together with all exhibits,\r\nschedules and attachments, constitutes the entire agreement between the parties with\r\nrespect to the subject matter hereof. This Agreement supersedes, and the terms of this\r\nAgreement govern, any prior agreements with respect to the subject matter hereof with\r\nthe exception of any prior confidentiality agreements between the parties. This\r\nAgreement may only be changed by mutual agreement of authorized representatives of the\r\nparties in writing.\r\nIN WITNESS WHEREOF Lifeway has caused its duly authorized representatives to execute\r\nthis Agreement and Individual has signed the Agreement on her own behalf as of the\r\nEffective Date.\r\nLifeway Foods, Inc. Ludmila Smolyansky\r\nBy: /s/ Julie Smolyansky By: /s/ Ludmila Smolyansky\r\nName: Julie Smolyansky\r\nTitle: CEO Date: March 14, 2016\r\nDate: March 14, 2016\r\nSource: LIFEWAY FOODS, INC., 10-K, 3/16/2016\r\n"
+    } ],
+    "fields" : [ {
+      "category" : "PARTIES",
+      "value" : "Lifeway Foods, Inc. and Ludmila Smolyansky",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "by and between Lifeway Foods, Inc. ("
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 137,
+        "end" : 173
+      } ]
+    }, {
+      "category" : "AGREEMENT_DATE",
+      "value" : "March 14, 2016",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This Endorsement Agreement ("
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 38,
+        "end" : 66
+      } ]
+    }, {
+      "category" : "EFFECTIVE_DATE",
+      "value" : "March 14, 2016",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 1,
+          "quote" : "This Endorsement Agreement ("
+        },
+        "status" : "VERIFIED",
+        "page" : 1,
+        "start" : 38,
+        "end" : 66
+      } ]
+    }, {
+      "category" : "EXPIRATION_DATE",
+      "value" : null,
+      "evidence" : [ ]
+    }, {
+      "category" : "GOVERNING_LAW",
+      "value" : "State of Illinois",
+      "evidence" : [ {
+        "claimed" : {
+          "page" : 3,
+          "quote" : "This Agreement will be construed and governed in accordance with the laws of the State of Illinois"
+        },
+        "status" : "VERIFIED",
+        "page" : 3,
+        "start" : 1504,
+        "end" : 1603
+      } ]
+    }, {
+      "category" : "RENEWAL_TERM",
+      "value" : null,
+      "evidence" : [ ]
+    } ],
+    "precision" : 0.5,
+    "recall" : 0.42857142857142855,
+    "f1" : 0.4615384615384615
+  } ],
   "report" : {
     "perCategory" : {
       "PARTIES" : {
-        "precision" : 0.0,
-        "recall" : 0.0,
-        "f1" : 0.0
+        "precision" : 0.6363636363636364,
+        "recall" : 0.4,
+        "f1" : 0.4912280701754386
       },
       "AGREEMENT_DATE" : {
-        "precision" : 0.0,
-        "recall" : 0.0,
-        "f1" : 0.0
+        "precision" : 0.7,
+        "recall" : 0.7,
+        "f1" : 0.7
       },
       "EFFECTIVE_DATE" : {
-        "precision" : 0.0,
-        "recall" : 0.0,
-        "f1" : 0.0
+        "precision" : 0.5555555555555556,
+        "recall" : 0.5555555555555556,
+        "f1" : 0.5555555555555556
       },
       "EXPIRATION_DATE" : {
-        "precision" : 0.0,
-        "recall" : 0.0,
-        "f1" : 0.0
+        "precision" : 0.8333333333333334,
+        "recall" : 0.8333333333333334,
+        "f1" : 0.8333333333333334
       },
       "GOVERNING_LAW" : {
-        "precision" : 0.0,
-        "recall" : 0.0,
-        "f1" : 0.0
+        "precision" : 1.0,
+        "recall" : 1.0,
+        "f1" : 1.0
       },
       "RENEWAL_TERM" : {
-        "precision" : 0.0,
-        "recall" : 0.0,
-        "f1" : 0.0
+        "precision" : 1.0,
+        "recall" : 1.0,
+        "f1" : 1.0
       }
     },
-    "overallF1" : 0.0,
-    "overallPrecision" : 0.0,
-    "overallRecall" : 0.0,
-    "supportedRate" : 0.0,
-    "unsupportedRate" : 0.0,
+    "overallF1" : 0.6388308977035491,
+    "overallPrecision" : 0.7391304347826086,
+    "overallRecall" : 0.5625,
+    "supportedRate" : 0.9019607843137255,
+    "unsupportedRate" : 0.0980392156862745,
     "unmapped" : 0
   }
 }

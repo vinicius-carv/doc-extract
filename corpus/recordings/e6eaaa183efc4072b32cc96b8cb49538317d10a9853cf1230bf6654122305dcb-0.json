@@ -1,0 +1,56 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "MODUS MEDIA INTERNATIONAL ... (HEREINAFTER \"MMI\") AND DRAGON SYSTEMS, INC. ... (HEREAFTER \"DRAGON SYSTEMS\")"
+      }
+    ],
+    "value": "MODUS MEDIA INTERNATIONAL and DRAGON SYSTEMS, INC."
+  },
+  "agreement_date": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "MMI \\s\\ John Dick ... 19 Jan. 1998"
+      }
+    ],
+    "value": "19 Jan. 1998"
+  },
+  "effective_date": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "MMI \\s\\ John Dick ... 19 Jan. 1998"
+      }
+    ],
+    "value": "19 Jan. 1998"
+  },
+  "expiration_date": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "This Agreement shall be valid for an indefinite period."
+      }
+    ],
+    "value": null
+  },
+  "governing_law": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "Any lawsuit relating to any matter arising under this Agreement may be initiated in a State or Federal Court located in the Commonwealth of Massachusetts or in any court in the Netherlands having jurisdiction over the matter."
+      }
+    ],
+    "value": "Commonwealth of Massachusetts or the Netherlands"
+  },
+  "renewal_term": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "This Agreement shall be valid for an indefinite period."
+      }
+    ],
+    "value": null
+  }
+}

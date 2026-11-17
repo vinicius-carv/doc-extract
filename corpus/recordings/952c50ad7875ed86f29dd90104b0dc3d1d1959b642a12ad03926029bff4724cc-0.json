@@ -1,0 +1,56 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "between Fruit of Life Productions LLC, ("
+        }
+      ],
+      "value": "Fruit of Life Productions LLC and Eco Science Solutions, Inc."
+    },
+    "agreement_date": {
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "This agreement (the "
+          }
+      ],
+      "value": "April 1, 2018"
+    },
+    "effective_date": {
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "This agreement (the "
+          }
+      ],
+      "value": "April 1, 2018"
+    },
+    "expiration_date": {
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "The term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm."
+        }
+      ],
+      "value": "April 30, 2018"
+    },
+    "governing_law": {
+      "evidence": [
+        {
+          "page": 3,
+          "quote": "This Agreement shall be governed by and interpreted in accordance with the laws of the State of Florida"
+        }
+      ],
+      "value": "State of Florida"
+    },
+    "renewal_term": {
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "The term of this agreement will begin on April 1, 2018 and continue until April 30, 2018 at 11:59pm."
+        }
+      ],
+      "value": null
+    }
+  }

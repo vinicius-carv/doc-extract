@@ -1,0 +1,60 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "by and between Bravatek Solutions, Inc., a corporation organized under the laws of the State of Colorado, ("
+      },
+      {
+        "page": 1,
+        "quote": "Fazync LLC, a limited liability company organized under the laws of the State of Colorado"
+      }
+    ],
+    "value": "Bravatek Solutions, Inc. and Fazync LLC"
+  },
+  "agreement_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "This agreement is made and entered into this 10th day of January, 2018"
+      }
+    ],
+    "value": "January 10, 2018"
+  },
+  "effective_date": {
+    "evidence": [
+      {
+        "page": 3,
+        "quote": "The term of this Agreement is twelve (12) months from the date hereof"
+      }
+    ],
+    "value": "January 10, 2018"
+  },
+  "expiration_date": {
+    "evidence": [
+      {
+        "page": 3,
+        "quote": "The term of this Agreement is twelve (12) months from the date hereof"
+      }
+    ],
+    "value": "January 10, 2019"
+  },
+  "governing_law": {
+    "evidence": [
+      {
+        "page": 4,
+        "quote": "This Agreement is entered into in the State of Texas and shall be interpreted according to the laws of the State of Texas."
+      }
+    ],
+    "value": "State of Texas"
+  },
+  "renewal_term": {
+    "evidence": [
+      {
+        "page": 3,
+        "quote": "will be automatically renewed for one (1) additional twelve month period"
+      }
+    ],
+    "value": "twelve months"
+  }
+}

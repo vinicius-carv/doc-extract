@@ -1,0 +1,51 @@
+{
+  "parties": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "between R. C. Boyd Enterprises, LLC, a Texas limited liability company... and Cano Petroleum, Inc., a Delaware corporation..."
+      }
+    ],
+    "value": "R. C. Boyd Enterprises, LLC; Cano Petroleum, Inc."
+  },
+  "agreement_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "THIS AGREEMENT made this 5th day of December, 2007"
+      }
+    ],
+    "value": "December 5, 2007"
+  },
+  "effective_date": {
+    "evidence": [
+      {
+        "page": 3,
+        "quote": "to be effective January 1, 2008."
+      }
+    ],
+    "value": "January 1, 2008"
+  },
+  "expiration_date": {
+    "evidence": [
+      {
+        "page": 1,
+        "quote": "The term of this Agreement shall be one (1) year, commencing January 1, 2008 and ending on December 31, 2008."
+      }
+    ],
+    "value": "December 31, 2008"
+  },
+  "governing_law": {
+    "evidence": [
+      {
+        "page": 2,
+        "quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of Texas"
+      }
+    ],
+    "value": "State of Texas"
+  },
+  "renewal_term": {
+    "evidence": [],
+    "value": null
+  }
+}

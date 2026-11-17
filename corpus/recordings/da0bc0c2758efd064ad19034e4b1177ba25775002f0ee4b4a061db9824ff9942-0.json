@@ -1,0 +1,37 @@
+{
+  "parties": {
+    "evidence": [
+      {"page": 1, "quote": "entered into by and between Stremick's Heritage Foods, LLC, ('Heritage'), Premier Nutrition Corporation ('Premier')"},
+      {"page": 4, "quote": "PREMIER NUTRITION CORPORATION STREMICKS HERITAGE FOODS, LLC And as and for Jasper Products, LLC"}
+    ],
+    "value": "Stremick's Heritage Foods, LLC and Premier Nutrition Corporation"
+  },
+  "agreement_date": {
+    "evidence": [
+      {"page": 1, "quote": "This Second Amendment ('Second Amendment'), entered into by and between Stremick's Heritage Foods, LLC, ('Heritage'), Premier Nutrition Corporation ('Premier') is effective as of October 1, 2018"}
+    ],
+    "value": "October 1, 2018"
+  },
+  "effective_date": {
+    "evidence": [
+      {"page": 1, "quote": "is effective as of October 1, 2018 ('Second Amendment Effective Date')"}
+    ],
+    "value": "October 1, 2018"
+  },
+  "expiration_date": {
+    "evidence": [
+      {"page": 1, "quote": "This Second Amendment shall be effective from The Second Amendment Effective Date and shall expire on December 31, 2021."}
+    ],
+    "value": "December 31, 2021"
+  },
+  "governing_law": {
+    "evidence": [],
+    "value": null
+  },
+  "renewal_term": {
+    "evidence": [
+      {"page": 1, "quote": "Upon expiration, this Second Amendment shall be of no further force or effect"}
+    ],
+    "value": null
+  }
+}
