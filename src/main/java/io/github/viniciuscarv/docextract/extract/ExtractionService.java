@@ -7,9 +7,12 @@ import io.github.viniciuscarv.docextract.model.Evidence;
 import io.github.viniciuscarv.docextract.model.EvidenceStatus;
 import io.github.viniciuscarv.docextract.model.PageText;
 import io.github.viniciuscarv.docextract.model.VerifiedEvidence;
+import io.github.viniciuscarv.docextract.text.TextNormalizer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 import tools.jackson.core.JacksonException;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.json.JsonMapper;
@@ -57,14 +60,33 @@ public class ExtractionService {
     for (Category c : Category.values()) {
       JsonNode field = root.path(c.key());
       JsonNode value = field.path("value");
+      String v = value.isString() && !value.asString().isBlank() ? value.asString() : null;
       List<VerifiedEvidence> evidence = new ArrayList<>();
       for (JsonNode e : field.path("evidence")) {
+        Evidence ev = new Evidence(e.path("page").asInt(-1), e.path("quote").asString(""));
         evidence.add(
-            verify(window, new Evidence(e.path("page").asInt(-1), e.path("quote").asString(""))));
+            v == null || sharesWord(v, ev.quote())
+                ? verify(window, ev)
+                : new VerifiedEvidence(ev, EvidenceStatus.UNSUPPORTED, -1, -1, -1));
       }
-      out.add(new FieldOutcome(c, value.isString() && !value.asString().isBlank() ? value.asString() : null, evidence));
+      out.add(new FieldOutcome(c, v, evidence));
     }
     return out;
+  }
+
+  /**
+   * A quote supports a value only if they share a word: 3+ letters, or any number. Stops a quote
+   * that is on the page but unrelated (e.g. "This Agreement (" for a date) counting as verified.
+   */
+  static boolean sharesWord(String value, String quote) {
+    Set<String> q = words(quote);
+    return words(value).stream().anyMatch(q::contains);
+  }
+
+  private static Set<String> words(String s) {
+    return Arrays.stream(TextNormalizer.forMatching(s).normalized().toLowerCase().split("[^\\p{L}\\p{N}]+"))
+        .filter(w -> w.length() >= 3 || (!w.isEmpty() && w.chars().allMatch(Character::isDigit)))
+        .collect(Collectors.toSet());
   }
 
   /** Pages outside the window are UNSUPPORTED; the verifier only sees the window's pages. */

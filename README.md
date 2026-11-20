@@ -19,7 +19,7 @@ The model never gets to mark its own homework. For every quote it returns, the a
 | `VERIFIED` | Quote found exactly after normalization (hyphenated line breaks, curly quotes, whitespace) |
 | `FUZZY` | Close match, not exact |
 | `WRONG_PAGE` | Found on another page; the page is corrected |
-| `UNSUPPORTED` | Not found anywhere (also used for out-of-range page numbers) |
+| `UNSUPPORTED` | Not found anywhere, or shares no word with the value it backs (also used for out-of-range page numbers) |
 
 ## How scoring works
 
@@ -37,14 +37,14 @@ The eval compares extracted evidence with CUAD gold spans over a small corpus (`
 | category | precision | recall | F1 |
 |---|---|---|---|
 | parties | 0.64 | 0.40 | 0.49 |
-| agreement_date | 0.70 | 0.70 | 0.70 |
-| effective_date | 0.56 | 0.56 | 0.56 |
-| expiration_date | 0.83 | 0.83 | 0.83 |
+| agreement_date | 1.00 | 0.70 | 0.82 |
+| effective_date | 1.00 | 0.56 | 0.71 |
+| expiration_date | 1.00 | 0.83 | 0.91 |
 | governing_law | 1.00 | 1.00 | 1.00 |
 | renewal_term | 1.00 | 1.00 | 1.00 |
-| **overall** | | | **0.64** |
+| **overall** | | | **0.69** |
 
-Supported rate 0.90 (10% of quotes the model gave could not be found on the page and are flagged `UNSUPPORTED`), 0 unmapped gold spans. CI fails below F1 0.62 (`corpus/baseline.json`).
+Supported rate 0.75: 25% of the model's quotes are flagged `UNSUPPORTED`, either because they are not on the cited page or because they share no word with the value they claim to back (e.g. the quote "This Endorsement Agreement (" offered for a date). 0 unmapped gold spans. CI fails below F1 0.67 (`corpus/baseline.json`).
 
 Contracts were picked from CUAD v1 by a fixed rule: labels in at least 4 of the 6 categories, at least 85% of their gold spans locatable in the PDF text layer, one contract per company; the CUAD title of each is kept in `corpus/manifest.json`. Small sample — read the numbers as a regression baseline, not a benchmark.
 

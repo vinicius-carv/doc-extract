@@ -40,6 +40,27 @@ class ExtractionServiceTest {
   }
 
   @Test
+  void quoteOnThePageThatSharesNoWordWithTheValueIsUnsupported() {
+    DocumentText d =
+        new DocumentText(
+            "sha",
+            List.of(new PageText(1, "This Endorsement Agreement (dated March 14, 2016) is made by Lifeway Foods, Inc.")));
+    String json =
+        "{\"agreement_date\":{\"value\":\"March 14, 2016\",\"evidence\":[{\"page\":1,\"quote\":\"This Endorsement Agreement (\"}]},"
+            + "\"parties\":{\"value\":\"Lifeway Foods, Inc.\",\"evidence\":[{\"page\":1,\"quote\":\"made by Lifeway Foods\"}]},"
+            + "\"governing_law\":{\"value\":\"State of Ohio\",\"evidence\":[{\"page\":1,\"quote\":\"is made by\"}]}}";
+    List<FieldOutcome> out = new ExtractionService((s, w, p) -> json).extract(d);
+
+    assertThat(of(out, Category.AGREEMENT_DATE).evidence())
+        .singleElement().extracting("status").isEqualTo(EvidenceStatus.UNSUPPORTED);
+    assertThat(of(out, Category.PARTIES).evidence())
+        .singleElement().extracting("status").isEqualTo(EvidenceStatus.VERIFIED);
+    // "of" alone is too short to count as a shared word
+    assertThat(of(out, Category.GOVERNING_LAW).evidence())
+        .singleElement().extracting("status").isEqualTo(EvidenceStatus.UNSUPPORTED);
+  }
+
+  @Test
   void pageOutsideDocumentOrWindowIsUnsupportedNotAnException() {
     String json =
         "{\"governing_law\":{\"value\":\"Delaware\",\"evidence\":"
@@ -59,14 +80,14 @@ class ExtractionServiceTest {
           prompts.add(p);
           return w == 0
               ? "{\"parties\":{\"value\":\"Unsure\",\"evidence\":[]}}"
-              : "{\"parties\":{\"value\":\"Acme\",\"evidence\":[{\"page\":7,\"quote\":\"Page 7 text\"}]}}";
+              : "{\"parties\":{\"value\":\"Delaware\",\"evidence\":[{\"page\":7,\"quote\":\"laws of Delaware\"}]}}";
         };
     List<FieldOutcome> out = new ExtractionService(fake).extract(doc(7));
 
     assertThat(prompts).hasSize(2);
     assertThat(prompts.get(0)).contains("<page n=\"1\">", "<page n=\"6\">").doesNotContain("<page n=\"7\">");
     assertThat(prompts.get(1)).contains("<page n=\"6\">", "<page n=\"7\">");
-    assertThat(of(out, Category.PARTIES).value()).isEqualTo("Acme");
+    assertThat(of(out, Category.PARTIES).value()).isEqualTo("Delaware");
   }
 
   @Test

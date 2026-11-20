@@ -57,10 +57,10 @@
           "page" : 3,
           "quote" : "Intending to be legally bound, the parties hereto have caused this Agreement to be executed as of the date first above written."
         },
-        "status" : "VERIFIED",
-        "page" : 3,
-        "start" : 1685,
-        "end" : 1812
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EXPIRATION_DATE",
@@ -93,9 +93,9 @@
       "value" : null,
       "evidence" : [ ]
     } ],
-    "precision" : 0.8,
+    "precision" : 1.0,
     "recall" : 0.8571428571428571,
-    "f1" : 0.8275862068965518
+    "f1" : 0.923076923076923
   }, {
     "id" : "cano-sponsorship",
     "title" : "Cano Petroleum — Sponsorship Agreement",
@@ -249,10 +249,10 @@
           "page" : 2,
           "quote" : "This agreement is executed the date first hereinafter written,"
         },
-        "status" : "VERIFIED",
-        "page" : 2,
-        "start" : 2269,
-        "end" : 2331
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EFFECTIVE_DATE",
@@ -289,9 +289,9 @@
       "value" : null,
       "evidence" : [ ]
     } ],
-    "precision" : 0.5,
+    "precision" : 0.6,
     "recall" : 0.3333333333333333,
-    "f1" : 0.4
+    "f1" : 0.42857142857142855
   }, {
     "id" : "federated-services-amendment",
     "title" : "Federated Government Income Securities — Services Agreement Amendment",
@@ -575,10 +575,10 @@
           "page" : 1,
           "quote" : "This agreement (the "
         },
-        "status" : "VERIFIED",
-        "page" : 1,
-        "start" : 23,
-        "end" : 42
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EFFECTIVE_DATE",
@@ -588,10 +588,10 @@
           "page" : 1,
           "quote" : "This agreement (the "
         },
-        "status" : "VERIFIED",
-        "page" : 1,
-        "start" : 23,
-        "end" : 42
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EXPIRATION_DATE",
@@ -624,9 +624,9 @@
       "value" : null,
       "evidence" : [ ]
     } ],
-    "precision" : 0.6,
+    "precision" : 1.0,
     "recall" : 0.375,
-    "f1" : 0.4615384615384615
+    "f1" : 0.5454545454545454
   }, {
     "id" : "intelligent-highway-alliance",
     "title" : "Intelligent Highway Solutions — Strategic Alliance Agreement",
@@ -692,10 +692,10 @@
           "page" : 3,
           "quote" : "The term of this Agreement is twelve (12) months from the date hereof"
         },
-        "status" : "VERIFIED",
-        "page" : 3,
-        "start" : 2087,
-        "end" : 2156
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EXPIRATION_DATE",
@@ -705,10 +705,10 @@
           "page" : 3,
           "quote" : "The term of this Agreement is twelve (12) months from the date hereof"
         },
-        "status" : "VERIFIED",
-        "page" : 3,
-        "start" : 2087,
-        "end" : 2156
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "GOVERNING_LAW",
@@ -737,9 +737,9 @@
         "end" : 2235
       } ]
     } ],
-    "precision" : 0.7142857142857143,
+    "precision" : 1.0,
     "recall" : 0.875,
-    "f1" : 0.7865168539325842
+    "f1" : 0.9333333333333333
   }, {
     "id" : "dragon-outsourcing",
     "title" : "Dragon Systems — Outsourcing Agreement",
@@ -854,10 +854,10 @@
           "page" : 1,
           "quote" : "This Endorsement Agreement ("
         },
-        "status" : "VERIFIED",
-        "page" : 1,
-        "start" : 38,
-        "end" : 66
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EFFECTIVE_DATE",
@@ -867,10 +867,10 @@
           "page" : 1,
           "quote" : "This Endorsement Agreement ("
         },
-        "status" : "VERIFIED",
-        "page" : 1,
-        "start" : 38,
-        "end" : 66
+        "status" : "UNSUPPORTED",
+        "page" : -1,
+        "start" : -1,
+        "end" : -1
       } ]
     }, {
       "category" : "EXPIRATION_DATE",
@@ -894,9 +894,9 @@
       "value" : null,
       "evidence" : [ ]
     } ],
-    "precision" : 0.5,
+    "precision" : 1.0,
     "recall" : 0.42857142857142855,
-    "f1" : 0.4615384615384615
+    "f1" : 0.6
   } ],
   "report" : {
     "perCategory" : {
@@ -906,19 +906,19 @@
         "f1" : 0.4912280701754386
       },
       "AGREEMENT_DATE" : {
-        "precision" : 0.7,
+        "precision" : 1.0,
         "recall" : 0.7,
-        "f1" : 0.7
+        "f1" : 0.8235294117647058
       },
       "EFFECTIVE_DATE" : {
-        "precision" : 0.5555555555555556,
+        "precision" : 1.0,
         "recall" : 0.5555555555555556,
-        "f1" : 0.5555555555555556
+        "f1" : 0.7142857142857143
       },
       "EXPIRATION_DATE" : {
-        "precision" : 0.8333333333333334,
+        "precision" : 1.0,
         "recall" : 0.8333333333333334,
-        "f1" : 0.8333333333333334
+        "f1" : 0.9090909090909091
       },
       "GOVERNING_LAW" : {
         "precision" : 1.0,
@@ -931,11 +931,11 @@
         "f1" : 1.0
       }
     },
-    "overallF1" : 0.6388308977035491,
-    "overallPrecision" : 0.7391304347826086,
+    "overallF1" : 0.6907449209932279,
+    "overallPrecision" : 0.8947368421052632,
     "overallRecall" : 0.5625,
-    "supportedRate" : 0.9019607843137255,
-    "unsupportedRate" : 0.0980392156862745,
+    "supportedRate" : 0.7450980392156863,
+    "unsupportedRate" : 0.2549019607843137,
     "unmapped" : 0
   }
 }
